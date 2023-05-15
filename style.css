@@ -1,0 +1,34 @@
+/*menu de navegacion primera pagina */
+.nav {
+  display: flexbox;
+  max-width: 992px; /*para que se centre  los link del menu al medio*/
+  margin: 0 auto; /*quede todo centrado 0 arri y abaj/ auto iz y derech*/
+  margin: 40px;
+}
+/* titulo-header */
+.tex-1 {
+  flex-direction: row;
+}
+/* estilos a los navegadores */
+.menu-link {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.enlace-nav {
+  text-decoration: none !important;
+  margin: 20px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+/*fondo header*/
+.fondo-header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 90%;
+  max-width: 1100px;
+  height: 100%;
+  margin: auto;
+  gap: 20pzx;
+  overflow: hidden;
+  align-items: center;
+}
