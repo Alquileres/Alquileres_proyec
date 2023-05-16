@@ -1,6 +1,10 @@
 /*menu de navegacion primera pagina */
+.header{
+  background-color: none;
+  border-radius: 4px;
+}
 .nav {
-  display: flexbox;
+  display: flex;
   max-width: 992px; /*para que se centre  los link del menu al medio*/
   margin: 0 auto; /*quede todo centrado 0 arri y abaj/ auto iz y derech*/
   margin: 40px;
@@ -10,18 +14,30 @@
   flex-direction: row;
 }
 /* estilos a los navegadores */
-.menu-link {
-  display: flex;
-  flex-direction: row-reverse;
-}
+
 .enlace-nav {
   text-decoration: none !important;
   margin: 20px;
   color: black;
   font-family: "Times New Roman", Times, serif;
+  width: max-content; /*para que no me corte el contenido*/
+  
 }
 /*fondo header*/
-.fondo-header {
+.tex-aling{
+  margin: 0px 80px;
+  margin-bottom: 15px !important;
+}
+.parrafo{
+  margin: 15px 30%;
+  
+}
+.cta{
+  margin: 50px 170px;
+  margin-top: 100px !important;
+  text-decoration: none;
+}
+/* .fondo-header {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   width: 90%;
@@ -31,4 +47,61 @@
   gap: 20pzx;
   overflow: hidden;
   align-items: center;
+} */
+/* modificacion del logon en el menu */
+.img-logo{
+  text-decoration: none !important;
+  width: 3%  !important;
+  height: 3%;
+  
+  
 }
+.logo{
+  display: flex;
+  display: grid;
+  justify-content: space-between;
+  max-width: 992px; 
+  text-decoration: none;
+ 
+  
+}
+.logo>h1{
+  color: black;
+  padding-left: 20px;
+}
+.logo>h1>span{
+  color: #fd7e14!important;
+}
+
+.nav{
+  display: grid;
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px; /*para que se centre tos los link del menu al medio*/
+  margin: 0 auto; 
+}
+.colum-dos{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.listas-estilo{
+  display: flex; /*quede en forma orizontal todo los linkd del menu*/
+  margin-right: 20px; /*queden separados entre ellos desde la derecha*/
+  list-style: none; /*borrar los puntitos que tienen la listas por defectos*/
+  padding-left: 50%;
+
+}
+
+.container{
+  display: flex;
+  justify-content: right;
+}
+.boton-color{
+  display: flex;
+  background-color:  #fd7e14 !important;
+  border-radius: 10px;
+  
+}
+
+
