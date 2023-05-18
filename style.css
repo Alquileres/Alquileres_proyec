@@ -94,9 +94,43 @@
   display: flex;
   background-color: #fd7e14 !important;
   border-radius: 10px;
+  align-items: end;
 }
+/*boton alineaciones*/
+.botones-alineacion {
+  display: grid;
+  grid-template-columns: repeat(2, 10%);
+  align-items: center;
+  padding-left: 20% !important;
+  /* display: flex;
+  align-items: center; */
+}
+.boton-popular {
+  display: flex;
+  border-radius: 10px;
+  background-color: #f89b50 !important;
+}
+
 /*pie de pagina*/
 footer {
   text-align: center;
   padding-top: 95px;
+}
+
+/*imagenes populares*/
+.alinear-img-popular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  gap: 20px;
+  align-content: center;
+  padding-left: 100px;
+}
+.img-popu {
+  width: 200px !important;
+}
+/*titulo*/
+.h2-titulo-popu {
+  text-align: center !important;
+  padding-bottom: 50px !important;
 }
