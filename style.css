@@ -1,5 +1,5 @@
 /*menu de navegacion primera pagina */
-.header{
+.header {
   background-color: none;
   border-radius: 4px;
 }
@@ -21,18 +21,16 @@
   color: black;
   font-family: "Times New Roman", Times, serif;
   width: max-content; /*para que no me corte el contenido*/
-  
 }
 /*fondo header*/
-.tex-aling{
+.tex-aling {
   margin: 0px 80px;
   margin-bottom: 15px !important;
 }
-.parrafo{
+.parrafo {
   margin: 15px 30%;
-  
 }
-.cta{
+.cta {
   margin: 50px 170px;
   margin-top: 100px !important;
   text-decoration: none;
@@ -49,59 +47,56 @@
   align-items: center;
 } */
 /* modificacion del logon en el menu */
-.img-logo{
+.img-logo {
   text-decoration: none !important;
-  width: 3%  !important;
+  width: 3% !important;
   height: 3%;
-  
-  
 }
-.logo{
+.logo {
   display: flex;
   display: grid;
   justify-content: space-between;
-  max-width: 992px; 
+  max-width: 992px;
   text-decoration: none;
- 
-  
 }
-.logo>h1{
+.logo > h1 {
   color: black;
   padding-left: 20px;
 }
-.logo>h1>span{
-  color: #fd7e14!important;
+.logo > h1 > span {
+  color: #fd7e14 !important;
 }
 
-.nav{
+.nav {
   display: grid;
   display: flex;
   justify-content: space-between;
   max-width: 992px; /*para que se centre tos los link del menu al medio*/
-  margin: 0 auto; 
+  margin: 0 auto;
 }
-.colum-dos{
+.colum-dos {
   display: flex;
   justify-content: center;
   align-items: start;
 }
-.listas-estilo{
+.listas-estilo {
   display: flex; /*quede en forma orizontal todo los linkd del menu*/
   margin-right: 20px; /*queden separados entre ellos desde la derecha*/
   list-style: none; /*borrar los puntitos que tienen la listas por defectos*/
   padding-left: 50%;
-
 }
 
-.container{
+.container {
   display: flex;
   justify-content: right;
 }
-.boton-color{
+.boton-color {
   display: flex;
-  background-color:  #fd7e14 !important;
+  background-color: #fd7e14 !important;
   border-radius: 10px;
-  
 }
-
-
+/*pie de pagina*/
+footer {
+  text-align: center;
+  padding-top: 95px;
+}
