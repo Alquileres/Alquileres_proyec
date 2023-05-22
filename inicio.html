@@ -19,6 +19,34 @@
     <link rel="stylesheet" href="inicio.css" />
   </head>
   <body>
+
+    <header data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Carrusel</font></font></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navegación de palanca">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hogar</font></font></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Enlace</font></font></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Desactivado</font></font></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Buscar</font></font></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <div
         id="myCarousel col-md-6"
@@ -52,19 +80,19 @@
         <div class="carousel-inner">
           <div class="carousel-item">
             <img
-              class="bd-placeholder-img"
+              class="bd-placeholder-img1"
               width="100%"
               height="100%"
-               src="img/img1.jpg"
+              src="img/img1.jpg"
               aria-hidden="true"
               preserveAspectRatio="xMidYMid slice"
               focusable="false"
             >
-              <rect
+              <!-- <rect
                 width="100%"
                 height="100%"
                 fill="var(--bs-secondary-color)"
-              ></rect>
+              ></rect> -->
             </img>
             <div class="container">
               <div class="carousel-caption text-start">
@@ -80,21 +108,21 @@
             </div>
           </div>
           <div class="carousel-item">
-            <svg
-              class="bd-placeholder-img"
+            <img
+              class="bd-placeholder-img1 "
               width="100%"
               height="100%"
-              xmlns="http://www.w3.org/2000/svg"
+              src="img/img1.jpg"
               aria-hidden="true"
               preserveAspectRatio="xMidYMid slice"
               focusable="false"
             >
-              <rect
+              <!-- <rect
                 width="100%"
                 height="100%"
                 fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+              ></rect> -->
+          </img>
             <div class="container">
               <div class="carousel-caption">
                 <h1>Another example headline.</h1>
@@ -107,21 +135,21 @@
             </div>
           </div>
           <div class="carousel-item active">
-            <svg
-              class="bd-placeholder-img"
-              width="100%"
-              height="100%"
-              xmlns="http://www.w3.org/2000/svg"
+            <img
+              class="bd-placeholder-img1 "
+              width=" 100%"
+              height="50%"
+              src="img/img1.jpg"
               aria-hidden="true"
               preserveAspectRatio="xMidYMid slice"
               focusable="false"
             >
-              <rect
+              <!-- <rect
                 width="100%"
                 height="100%"
                 fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg>
+              ></rect> -->
+          </img>
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1>One more for good measure.</h1>
@@ -164,11 +192,11 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <svg
+            <img
               class="bd-placeholder-img rounded-circle"
               width="140"
               height="140"
-              xmlns="http://www.w3.org/2000/svg"
+              src="img/img1.jpg"
               role="img"
               aria-label="Placeholder"
               preserveAspectRatio="xMidYMid slice"
@@ -180,7 +208,7 @@
                 height="100%"
                 fill="var(--bs-secondary-color)"
               ></rect>
-            </svg>
+          </img>
             <h2 class="fw-normal">Heading</h2>
             <p>
               Some representative placeholder content for the three columns of
@@ -190,11 +218,11 @@
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <svg
+            <img
               class="bd-placeholder-img rounded-circle"
               width="140"
               height="140"
-              xmlns="http://www.w3.org/2000/svg"
+              src="img/img1.jpg"
               role="img"
               aria-label="Placeholder"
               preserveAspectRatio="xMidYMid slice"
@@ -206,7 +234,7 @@
                 height="100%"
                 fill="var(--bs-secondary-color)"
               ></rect>
-            </svg>
+          </img>
             <h2 class="fw-normal">Heading</h2>
             <p>
               Another exciting bit of representative placeholder content. This
@@ -216,11 +244,11 @@
           </div>
           <!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <svg
+            <img
               class="bd-placeholder-img rounded-circle"
               width="140"
               height="140"
-              xmlns="http://www.w3.org/2000/svg"
+              src="img/img1.jpg"
               role="img"
               aria-label="Placeholder"
               preserveAspectRatio="xMidYMid slice"
@@ -232,7 +260,7 @@
                 height="100%"
                 fill="var(--bs-secondary-color)"
               ></rect>
-            </svg>
+          </img>
             <h2 class="fw-normal">Heading</h2>
             <p>
               And lastly this, the third column of representative placeholder
