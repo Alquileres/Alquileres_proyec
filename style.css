@@ -3,6 +3,7 @@
   background-color: none;
   border-radius: 4px;
 }
+
 .nav {
   display: flex;
   max-width: 992px; /*para que se centre  los link del menu al medio*/
@@ -23,7 +24,7 @@
   width: max-content; /*para que no me corte el contenido*/
 }
 /*el de registrarce*/
-.nav-link{
+.nav-link {
   color: black !important;
   padding-top: 0px !important;
 }
@@ -63,6 +64,7 @@
   justify-content: space-between;
   max-width: 992px;
   text-decoration: none;
+  padding-left: 5pxs;
 }
 .logo > h1 {
   color: black;
@@ -71,7 +73,9 @@
 .logo > h1 > span {
   color: #fd7e14 !important;
 }
-
+.navbar {
+  padding-left: 5px;
+}
 .nav {
   display: grid;
   display: flex;
@@ -141,33 +145,33 @@ footer {
   padding-bottom: 50px !important;
   padding-top: 50px;
 }
-.fondo-seccion{
+.fondo-seccion {
   background-color: #eea55b;
   height: 400px;
   padding-top: 30px;
 }
-.listing-box-image-label{
-    background-color: #429A66;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: .80em;
-    font-weight: 700;
-    padding: 4px 12px;
-    position: absolute;
-    left: 20px;
-    top: 20px;
-    text-transform: uppercase;
+.listing-box-image-label {
+  background-color: #429a66;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 4px 12px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-transform: uppercase;
 }
-.lista-fondo{
-  background-color:rgb(252, 251, 250);
+.lista-fondo {
+  background-color: rgb(252, 251, 250);
 }
-.listing-box-image{
+.listing-box-image {
   background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border-radius: 3px 3px 0 0;
-    height: 160px;
-    position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 3px 3px 0 0;
+  height: 160px;
+  position: relative;
 }
 .listing-box-image-links {
   background-color: rgba(0, 0, 0, 0.3);
@@ -178,7 +182,7 @@ footer {
   right: 0;
   text-align: center;
   top: 0;
-  transition: opacity .15s linear;
+  transition: opacity 0.15s linear;
 }
 /*h2 titulo del enlace*/
 .listing-box-title h2 {
@@ -195,12 +199,12 @@ footer {
 }
 /*lista del contenido del alquiler*/
 .listing-box-content {
-  font-size: .95em;
+  font-size: 0.95em;
   padding: 20px;
 }
 /*titulo*/
- .listing-box-title {
-  background-color: #f47b35;
+.listing-box-title {
+  background-color: #eea55b;
 }
 /*precio alquiler*/
 .listing-box-title h3 {
@@ -239,5 +243,5 @@ dl {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
   margin: 0 0 30px 0;
   overflow: hidden;
-  transition: box-shadow .15s linear;
+  transition: box-shadow 0.15s linear;
 }
