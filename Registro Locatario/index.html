@@ -7,162 +7,160 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
     <title>Registro de Locatarios</title>
-    <link rel="logo" href="imagenes/logo.png">
+    <link rel="logo" href="imagenes/Logo.jpg">
     
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<link rel="apple-touch-icon" href="#" sizes="180x180">
-<link rel="icon" href="#" sizes="32x32" type="#">
-<link rel="icon" href="#" sizes="16x16" type="#">
-<link rel="manifest" href="#">
-<link rel="mask-icon" href="#" color="#7952b3">
-<link rel="icon" href="#">
-<meta name="theme-color" content="#7952b3">
+    <link rel="apple-touch-icon" href="#" sizes="180x180">
+    <link rel="icon" href="#" sizes="32x32" type="#">
+    <link rel="icon" href="#" sizes="16x16" type="#">
+    <link rel="manifest" href="#">
+    <link rel="mask-icon" href="#" color="#7952b3">
+    <link rel="icon" href="#">
+     <meta name="theme-color" content="#7952b3">
 
-    <link href="stylee.css" rel="stylesheet">
+     <link href="stylee.css" rel="stylesheet">
   </head>
-  <body class="bg-light">
-    <head class="header">
-    
-<div class="my-5 pt-5 ">
-  <main>
-    <div class=" textos-about-us  grid py-5 text-center">
-        <a  href="index.html" class="logo"><h1>Rent<span>Flex</span><img src="imagenes/logo.png" width="40px" height="50px" alt="30px"></h1></a>
-      <h2>Bienvenido Locatario.</h2>
-      <p class="parrafo fondo-negro">Registrarse en la página es esencial para que pueda iniciar sesión y disfrutar de todos los beneficios y funcionalidades que ofrecemos. Además, el registro es necesario para garantizar la seguridad de tu cuenta y proteger tu información personal. ¡No esperes más y regístrate para empezar a aprovechar al máximo nuestra página!</p>
-    </div>
-
-</main>
-<section class="formulario">
-    <div class=" container ">
-      <h4 class="mb-4 text-center">Registrese...</h4>
-      <form class="needs-validation" novalidate>
-        <div class="row g-3">
-          <div class="col-sm-6">
-            <label for="firstName" class="form-label">Nombre Completo</label>
-            <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
-            <div class="invalid-feedback">
-              
-            </div>
-          </div>
-
-          <div class="col-sm-6">
-            <label for="lastName" class="form-label">Apellido</label>
-            <input type="text" class="form-control" id="lastName" placeholder="Apellido" value="" required>
-            <div class="invalid-feedback">
-              Valid last name is required.
-            </div>
-          </div>
-
-          <div class="col-6">
-            <label for="username" class="form-label">Nombre de Usuario</label>
-            <div class="input-group has-validation">
-              <span class="input-group-text">@</span>
-              <input type="text" class="form-control" id="Usuario" placeholder="Usuario" required>
-            <div class="invalid-feedback">
-                Your username is required.
+<body class="bg-light">
+  <header class="header">
+     <div class=" textos-about-us  grid py-5 text-center">
+          <a  href="index.html" class="logo"><h1>Rent<span>Flex</span><img src="imagenes/Logo.jpg" width="40px" height="50px" alt="30px"></h1></a>
+         <h2>Bienvenido Locatario.</h2>
+          <p class="parrafo fondo-negro">Registrarse en la página es esencial para que pueda iniciar sesión y disfrutar de todos los beneficios y funcionalidades que ofrecemos. Además, el registro es necesario para garantizar la seguridad de tu cuenta y proteger tu información personal. ¡No esperes más y regístrate para empezar a aprovechar al máximo nuestra página!</p>
+       </div>
+  </header>
+<main class="bg-light">
+    <section class= " formulario">
+        <div class=" container ">
+          <h4 class="mb-4 text-center">Registrese...</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">Nombre Completo</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
+                <div class="invalid-feedback">
+                  
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-6">
-            <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-            <input type="email" class="form-control" id="email" placeholder="Jose@ejemplo.com">
-            <div class="invalid-feedback">
-              Please enter a valid email address for shipping updates.
-            </div>
-          </div>
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Apellido" value="" required>
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
 
-          <div class="col-6">
-            <label for="address" class="form-label">Contraseña</label>
-            <input type="text" class="form-control" id="Solo letras " placeholder="Solo letras y números" required>
-            <div class="invalid-feedback">
-              Please enter your shipping address.
-            </div>
-          </div>
+              <div class="col-6">
+                <label for="username" class="form-label">Nombre de Usuario</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text">@</span>
+                  <input type="text" class="form-control" id="Usuario" placeholder="Usuario" required>
+                <div class="invalid-feedback">
+                    Your username is required.
+                  </div>
+                </div>
+              </div>
 
-          <div class="col-6">
-            <label for="address2" class="form-label">Confirmar contraseña <span class="text-muted">(Minimo 8, máximo 12 caracteres)</span></label>
-            <input type="text" class="form-control" id="address2" placeholder="Confirmar contraseña">
-          </div>
-          <div class="col-6">
-            <label for="address2" class="form-label">Número de Teléfono <span class="text-muted">(Solo números)</span></label>
-            <input type="text" class="form-control" id="address2" placeholder="Solo números">
-          </div>
+              <div class="col-6">
+                <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                <input type="email" class="form-control" id="email" placeholder="Jose@ejemplo.com">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
 
-          <div class="col-5">
-            <label for="address2" class="form-label">CUIL/CUIT <span class="text-muted">(solo puntos)</span></label>
-            <input type="text" class="form-control" id="address2" placeholder="CUIL/CUIT">
-          </div>
-          <hr class="my-3">
+              <div class="col-6">
+                <label for="address" class="form-label">Contraseña</label>
+                <input type="text" class="form-control" id="Solo letras " placeholder="Solo letras y números" required>
+                <div class="invalid-feedback">
+                  Please enter your shipping address.
+                </div>
+              </div>
 
-          <div class="col-md-3">
-            <label for="zip" class="form-label">Día</label>
-            <input type="text" class="form-control" id="zip" placeholder="" required>
-            <div class="invalid-feedback">
-              Zip code required.
-            </div>
-          </div>
-         
-          <div class="col-md-3">
-            <label for="country" class="form-label">Mes</label>
-            <select class="form-select" id="country" required>
-                <option value="">Elige un mes...</option>
-              <option >Enero</option>
-              <option >Febrero</option>
-              <option >Marzo</option>
-              <option >Abril</option>
-              <option >Mayo</option>
-              <option >Junio</option>
-              <option >Julio</option>
-              <option >Agosto</option>
-              <option >Septiembre</option>
-              <option >Octubre</option>
-              <option >Noviembre</option>
-              <option >Diciembre</option>
-              
-              
-            </select>
+              <div class="col-6">
+                <label for="address2" class="form-label">Confirmar contraseña <span class="text-muted">(Minimo 8, máximo 12 caracteres)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Confirmar contraseña">
+              </div>
+              <div class="col-6">
+                <label for="address2" class="form-label">Número de Teléfono <span class="text-muted">(Solo números)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Solo números">
+              </div>
+
+              <div class="col-5">
+                <label for="address2" class="form-label">CUIL/CUIT <span class="text-muted">(solo puntos)</span></label>
+                <input type="text" class="form-control" id="address2" placeholder="CUIL/CUIT">
+              </div>
+              <hr class="my-3">
+
+              <div class="col-md-3">
+                <label for="zip" class="form-label">Día</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required>
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
             
-          </div>
+              <div class="col-md-3">
+                <label for="country" class="form-label">Mes</label>
+                <select class="form-select" id="country" required>
+                    <option value="">Elige un mes...</option>
+                  <option >Enero</option>
+                  <option >Febrero</option>
+                  <option >Marzo</option>
+                  <option >Abril</option>
+                  <option >Mayo</option>
+                  <option >Junio</option>
+                  <option >Julio</option>
+                  <option >Agosto</option>
+                  <option >Septiembre</option>
+                  <option >Octubre</option>
+                  <option >Noviembre</option>
+                  <option >Diciembre</option>
+                  
+                  
+                </select>
+                
+              </div>
 
-          <div class="col-md-3">
-            <label for="state" class="form-label">Año</label>
-            <select class="form-select" id="state" required>
-              <option value="">Elige un año...</option>
-              <option></option>
-            </select>
-            <div class="invalid-feedback">
-              Please provide a valid state.
+              <div class="col-md-3">
+                <label for="state" class="form-label">Año</label>
+                <select class="form-select" id="state" required>
+                  <option value="">Elige un año...</option>
+                  <option></option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+
+              
             </div>
-          </div>
 
           
-        </div>
+    <br><br>
+            <h4 class="mb-3">Género</h4>
 
-       
-<br><br>
-        <h4 class="mb-3">Género</h4>
-
-        <div class="my-3">
-          <div class="form-check">
-            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-            <label class="form-check-label" for="credit">Femenino</label>
-          </div>
-          <div class="form-check">
-            <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-            <label class="form-check-label" for="debit">Masculino</label>
-          </div>
-          <div class="form-check">
-            <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-            <label class="form-check-label" for="paypal">No deseo especificar</label>
-          </div>
+            <div class="my-3">
+              <div class="form-check">
+                <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+                <label class="form-check-label" for="credit">Femenino</label>
+              </div>
+              <div class="form-check">
+                <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="debit">Masculino</label>
+              </div>
+              <div class="form-check">
+                <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+                <label class="form-check-label" for="paypal">No deseo especificar</label>
+              </div>
+            </div>
+            <button class="w-100 btn colorbutton " type="submit">Registrarse</button>
+          </form>
         </div>
-        <button class="w-100 btn  btn-outline-warning" type="submit">Registrarse</button>
-      </form>
-    </div>
-  </div>
-</section>
+      </div>
+    </section>
+  </main>
 <footer class="my-5 pt-5 text-muted text-center text-small">
   <p class="mb-1">&copy; 2023- Todos los derechos reservados</p>
   <ul class="list-inline ">
@@ -174,11 +172,13 @@
 </div>
 
 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="form-validation.js"></script>
     </div>
 
     
-</head>
+
   </body>
 </html>
