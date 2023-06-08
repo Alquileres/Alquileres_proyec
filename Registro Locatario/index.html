@@ -25,8 +25,8 @@
   <header class="header">
      <div class=" textos-about-us  grid py-5 text-center">
           <a  href="index.html" class="logo"><h1>Rent<span>Flex</span><img src="imagenes/Logo.jpg" width="40px" height="50px" alt="30px"></h1></a>
-         <h2>Bienvenido Locatario.</h2>
-          <p class="parrafo fondo-negro">Registrarse en la página es esencial para que pueda iniciar sesión y disfrutar de todos los beneficios y funcionalidades que ofrecemos. Además, el registro es necesario para garantizar la seguridad de tu cuenta y proteger tu información personal. ¡No esperes más y regístrate para empezar a aprovechar al máximo nuestra página!</p>
+         <h2>Bienvenido Locatarios</h2>
+          <p class="parrafo fondo-negro">Registrarse en la página es esencial para que pueda iniciar sesión y disfrutar de todos los beneficios y funcionalidades que ofrecemos. Además, el registro es necesario para garantizar la seguridad de tu cuenta y proteger tu información personal.</p>
        </div>
   </header>
 <main class="bg-light">
@@ -39,7 +39,6 @@
                 <label for="firstName" class="form-label">Nombre Completo</label>
                 <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
                 <div class="invalid-feedback">
-                  
                 </div>
               </div>
 
@@ -69,30 +68,47 @@
                   Please enter a valid email address for shipping updates.
                 </div>
               </div>
-
-              <div class="col-6">
-                <label for="address" class="form-label">Contraseña</label>
-                <input type="text" class="form-control" id="Solo letras " placeholder="Solo letras y números" required>
-                <div class="invalid-feedback">
-                  Please enter your shipping address.
-                </div>
-              </div>
-
-              <div class="col-6">
-                <label for="address2" class="form-label">Confirmar contraseña <span class="text-muted">(Minimo 8, máximo 12 caracteres)</span></label>
-                <input type="text" class="form-control" id="address2" placeholder="Confirmar contraseña">
-              </div>
               <div class="col-6">
                 <label for="address2" class="form-label">Número de Teléfono <span class="text-muted">(Solo números)</span></label>
                 <input type="text" class="form-control" id="address2" placeholder="Solo números">
               </div>
 
-              <div class="col-5">
-                <label for="address2" class="form-label">CUIL/CUIT <span class="text-muted">(solo puntos)</span></label>
-                <input type="text" class="form-control" id="address2" placeholder="CUIL/CUIT">
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Localidad</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Localidad" value="" required>
+                <div class="invalid-feedback">
+                </div>
               </div>
-              <hr class="my-3">
+             
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Codigo Postal</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Codigo Postal" value="" required>
+                <div class="invalid-feedback">
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">CUIL/CUIT</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Solo números sin puntos" value="" required>
+                <div class="invalid-feedback">
+                </div>
+              </div>
+              
+              <div class="col-6">
+                <label for="address" class="form-label">Contraseña</label>
+                <input type="text" class="form-control" id="Solo letras " placeholder="Solo letras y números" required>
+                <div class="invalid-feedback">
+                </div>
+              </div>
 
+              <div class="col-6">
+                <label for="address2" class="form-label">Confirmar contraseña <span class="text-muted"></span></label>
+                <input type="text" class="form-control" id="address2" placeholder="Confirmar contraseña">
+              </div>
+             
+
+
+
+              <hr class="my-3">
               <div class="col-md-3">
                 <label for="zip" class="form-label">Día</label>
                 <input type="text" class="form-control" id="zip" placeholder="" required>
@@ -152,7 +168,7 @@
               </div>
               <div class="form-check">
                 <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                <label class="form-check-label" for="paypal">No deseo especificar</label>
+                <label class="form-check-label" for="paypal">No Binario</label>
               </div>
             </div>
             <button class="w-100 btn colorbutton " type="submit">Registrarse</button>
