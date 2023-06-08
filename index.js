@@ -11,18 +11,18 @@
 //btnCalcular.addEventListener('click', () => {
 
 //REGISTRATE
-const registrar_click = document.getElementById("regis_clik");
-registrar_click.addEventListener("clik", () => {
-  <ul class="dropdown-menu">
-    <li>
-      <a class="dropdown-item" href="#">
-        Como Locador
-      </a>
-    </li>
-    <li>
-      <a class="dropdown-item" href="#">
-        Como Locatario
-      </a>
-    </li>
-  </ul>;
-});
+// const registrar_click = document.getElementById("regis_clik");
+// registrar_click.addEventListener("clik", () => {
+//   <ul class="dropdown-menu">
+//     <li>
+//       <a class="dropdown-item" href="#">
+//         Como Locador
+//       </a>
+//     </li>
+//     <li>
+//       <a class="dropdown-item" href="#">
+//         Como Locatario
+//       </a>
+//     </li>
+//   </ul>;
+// });

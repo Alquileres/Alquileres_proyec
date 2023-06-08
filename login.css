@@ -1,0 +1,114 @@
+/* NAVEGADOR */
+.header {
+  border-radius: 4px;
+}
+nav.bg-body-tertiary {
+  background-color: rgb(21, 23, 28) !important;
+}
+
+.nav {
+  display: flex;
+  max-width: 992px; /*para que se centre  los link del menu al medio*/
+  margin: 0 auto; /*quede todo centrado 0 arri y abaj/ auto iz y derech*/
+  margin: 40px;
+}
+/* titulo-header */
+.tex-1 {
+  flex-direction: row;
+}
+/* estilos a los navegadores */
+
+.enlace-nav {
+  text-decoration: none !important;
+  margin: 20px;
+  color: rgb(76, 73, 73);
+  font-family: "Times New Roman", Times, serif;
+  width: max-content; /*para que no me corte el contenido*/
+}
+/*el de registrarce*/
+.nav-link {
+  color: rgb(120, 125, 143) !important;
+  padding-top: 0px !important;
+}
+.img-logo {
+  text-decoration: none !important;
+  width: 3% !important;
+  height: 3%;
+}
+.logo {
+  display: flex;
+  display: grid;
+  justify-content: space-between;
+  max-width: 992px;
+  text-decoration: none;
+  padding-left: 5pxs;
+}
+.logo > h1 {
+  color: rgb(120, 125, 143);
+  padding-left: 20px;
+}
+.logo > h1 > span {
+  color: rgb(104, 41, 202) !important;
+}
+.navbar {
+  padding-left: 5px;
+}
+.nav {
+  display: grid;
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px; /*para que se centre tos los link del menu al medio*/
+  margin: 0 auto;
+}
+
+.icon {
+  flex-direction: row;
+  width: 70px;
+  margin-left: 0;
+  margin-right: 0;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+#sub_titulo {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #9400d3;
+}
+.titulo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+main {
+  display: block;
+}
+.text-center {
+  text-align: center !important;
+}
+body {
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #f83687;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+.boton-color {
+  background-color: rgb(104, 41, 202) !important;
+}
+/* .form-control {
+  background-color: rgb(120, 125, 143) !important;
+} */
