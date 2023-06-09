@@ -1,21 +1,7 @@
 /* NAVEGADOR */
-.header {
-  border-radius: 4px;
-}
-nav.bg-body-tertiary {
-  background-color: rgb(21, 23, 28) !important;
-}
 
-.nav {
-  display: flex;
-  max-width: 992px; /*para que se centre  los link del menu al medio*/
-  margin: 0 auto; /*quede todo centrado 0 arri y abaj/ auto iz y derech*/
-  margin: 40px;
-}
-/* titulo-header */
-.tex-1 {
-  flex-direction: row;
-}
+
+
 /* estilos a los navegadores */
 
 .enlace-nav {
@@ -44,10 +30,14 @@ nav.bg-body-tertiary {
   padding-left: 5pxs;
 }
 .logo > h1 {
-  color: rgb(120, 125, 143);
+  color: rgb(120, 125, 143) !important;
   padding-left: 20px;
 }
 .logo > h1 > span {
+  color: rgb(104, 41, 202) !important;
+}
+
+.span-login{
   color: rgb(104, 41, 202) !important;
 }
 .navbar {
@@ -107,8 +97,42 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 .boton-color {
-  background-color: rgb(104, 41, 202) !important;
+  /* background-color: rgb(104, 41, 202) !important; */
+  color: rgb(104, 41, 202) !important;
+  letter-spacing: 4px;/*espacio entre las letras*/
+  
 }
 /* .form-control {
   background-color: rgb(120, 125, 143) !important;
 } */
+.boton-color:hover{
+  background-color: rgb(104, 41, 202);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(114, 39, 235),
+              0 0 25px rgb(120, 55, 224),
+              0 0 50px rgb(120, 55, 224),
+              0 0 100px rgb(120, 55, 224);/*esto es para que cora las lineas por el boton*/
+}
+
+
+.aqui>a:hover{
+  color: rgb(120, 55, 224);
+}
+/*pie de pagina*/
+footer {
+  text-align: center;
+  padding-top: 95px;
+  color: rgb(120, 125, 143);
+}
+form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background-color: rgb(21, 23, 28);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgb(0, 0, .6);
+}
