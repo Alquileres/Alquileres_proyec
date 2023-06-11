@@ -75,7 +75,7 @@ body {
   width: 70%;
   height: 70%;
   background: linear-gradient(180deg, rgb(252, 4, 68), rgb(252, 4, 68));
-  border-radius: 50px;
+  border-radius: 40px;
   position: relative;
 }
 
@@ -100,7 +100,7 @@ body {
   box-shadow: 0 0 5px rgb(27, 24, 25),
               0 0 25px rgb(27, 24, 25),
               0 0 50px rgb(252, 4, 68),
-              0 0 100px rgb(252, 4, 68);/*esto es para que cora las lineas por el boton*/
+              0 0 100px rgb(252, 4, 68);
 }
 
 

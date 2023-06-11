@@ -74,10 +74,10 @@ body {
   margin-bottom: 15px !important;
 }
 .formulario {
-  width: 80%;
-  height: 80%;
+  width: 70%;
+  height: 70%;
   background: linear-gradient(180deg, rgb(252, 4, 68), rgb(252, 4, 68));
-  border-radius: 50px;
+  border-radius: 40px;
   position: relative;
 }
 
@@ -100,8 +100,8 @@ body {
   color: white;
   letter-spacing: 4px;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgb(243, 236, 238),
-              0 0 25px rgb(252, 4, 68),
+  box-shadow: 0 0 5px rgb(24, 23, 23),
+              0 0 25px rgb(20, 20, 20),
               0 0 50px rgb(252, 4, 68),
               0 0 100px rgb(252, 4, 68);/*esto es para que cora las lineas por el boton*/
 }
