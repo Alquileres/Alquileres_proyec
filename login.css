@@ -30,15 +30,15 @@
   padding-left: 5pxs;
 }
 .logo > h1 {
-  color: rgb(120, 125, 143) !important;
+  color: rgb(255, 255, 255) !important;
   padding-left: 20px;
 }
 .logo > h1 > span {
-  color: rgb(104, 41, 202) !important;
+  color: rgb(252, 4, 68) !important;
 }
 
 .span-login{
-  color: rgb(104, 41, 202) !important;
+  color: rgb(252, 4, 68) !important;
 }
 .navbar {
   padding-left: 5px;
@@ -92,13 +92,13 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #f83687;
+  background-color: #171717 !important;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
 .boton-color {
   /* background-color: rgb(104, 41, 202) !important; */
-  color: rgb(104, 41, 202) !important;
+  color: rgb(252, 4, 68) !important;
   letter-spacing: 4px;/*espacio entre las letras*/
   
 }
@@ -106,18 +106,23 @@ body {
   background-color: rgb(120, 125, 143) !important;
 } */
 .boton-color:hover{
-  background-color: rgb(104, 41, 202);
+  background-color: rgb(252, 4, 68);
   color: white;
   border-radius: 5px;
-  box-shadow: 0 0 5px rgb(114, 39, 235),
-              0 0 25px rgb(120, 55, 224),
-              0 0 50px rgb(120, 55, 224),
-              0 0 100px rgb(120, 55, 224);/*esto es para que cora las lineas por el boton*/
+  box-shadow: 0 0 5px rgb(252, 4, 68),
+              0 0 25px rgb(252, 4, 68),
+              0 0 50px rgb(252, 4, 68),
+              0 0 100px rgb(252, 4, 68);/*esto es para que cora las lineas por el boton*/
+}
+h4.aqui{
+  color: #171717 !important;
+}
+.h3 a{
+  text-decoration: none;
 }
 
-
-.aqui>a:hover{
-  color: rgb(120, 55, 224);
+.aqui>span>a:hover{
+  color: rgb(252, 4, 68) !important;
 }
 /*pie de pagina*/
 footer {
@@ -132,7 +137,14 @@ form{
   width: 400px;
   padding: 40px;
   transform: translate(-50%, -50%);
-  background-color: rgb(21, 23, 28);
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgb(0, 0, .6);
+  box-shadow: 0 15px 25px rgb(172, 162, 164);
+}
+.form-control{
+  background-color: rgb(252, 4, 68) !important;
+}
+font{
+  color: #fff !important;
+  
 }

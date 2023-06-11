@@ -1,4 +1,15 @@
 /*menu de navegacion primera pagina */
+body {
+  background: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  color: rgb(32, 32, 32);
+  display: flex;
+  flex-direction: column;
+}
 .header {
   
   border-radius: 4px;
@@ -31,10 +42,10 @@
   padding-top: 0px !important;
 }
 .nav-link:hover{
-  box-shadow: 0 0 5px rgb(114, 39, 235),
-              0 0 25px rgb(120, 55, 224),
-              0 0 50px rgb(120, 55, 224),
-              0 0 100px rgb(120, 55, 224);
+  box-shadow: 0 0 5px rgb(252, 4, 68),
+              0 0 25px rgb(252, 4, 68),
+              0 0 50px rgb(252, 4, 68),
+              0 0 100px rgb(252, 4, 68);
 }
 /*fondo header*/
 .tex-aling {
@@ -42,9 +53,10 @@
   margin-bottom: 15px !important;
 }
 .parrafo {
-  margin: 15px 30%;
+  margin: 15px 40%;
   color: rgb(21, 23, 28);
   padding-top: 15px!important;
+  white-space: nowrap;
 }
 .cta {
   margin: 50px 170px;
@@ -81,7 +93,7 @@
   padding-left: 20px;
 }
 .logo > h1 > span {
-  color: rgb(104, 41, 202)!important;
+  color: rgb(252, 4, 68)!important;
 }
 .navbar {
   padding-left: 5px;
@@ -111,25 +123,141 @@
 }
 .boton-color {
   display: flex;
-  background-color: rgb(104, 41, 202) !important;
+  background-color: rgb(252, 4, 68) !important;
   border-radius: 10px;
   align-items: end;
 }
 /*boton alineaciones*/
-.botones-alineacion {
+.botones-alineacion{
+  -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -ms-grid-row-align: center;
+    filter: drop-shadow(rgba(32, 32, 32, 0.1) 0px 4px 15px);
+    gap: 1rem;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    grid-template-columns: repeat(3,1fr);
+    
+    
+}
+.botones-alineacion>button{
+  -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 4px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-width: 225px;
+    width: 33%;
+    min-width: 165px;
+    padding: 0px 15px;
+}
+@media (max-width: 1199px){
+  .botones-alineacion {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+/*boton2_publicar*/
+@media (max-width: 1199px){
+
+ .botones-alineacion > button {
+    min-width: 225px;
+ }
+}
+/* .botones-alineacion {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   padding-left: 20% !important;
-  /* display: flex;
-  align-items: center; */
+  display: flex;
+  align-items: center;
   padding-top: 20px;
-}
-.boton-popular {
+} */
+/* .boton-popular {
   display: flex;
   border-radius: 10px;
-  background-color: rgb(104, 41, 202) !important;
+  background-color: rgb(252, 4, 68) !important;
+} */
+.iRCgEU {
+  border-radius: 80px !important;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  min-width: 180px;
+  outline: 0px;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+  width: auto;
+  background-color: rgb(252, 4, 68);
+  color: rgb(248, 248, 249) !important;
+  border-color: rgb(252, 4, 68);
+  min-height: 50px;
+  font-size: 15px;
+   
 }
+.iRCgEU-2{
+  border-radius: 80px !important;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  min-width: 180px;
+  outline: 0px;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+  width: auto;
+  background-color: rgb(17, 17, 17);
+  color: rgb(248, 248, 249) !important;
+  border-color: rgb(17, 17, 17) !important;
+  min-height: 50px;
+  font-size: 15px;
+   
+}
+.boton-color-2 {
+  display: flex;
+  background-color: rgb(17, 17, 17) !important;
+  border-radius: 10px;
+  align-items: end;
+}
+.iRCgEU:hover{
+  background-color: rgb(221, 4, 4) !important;
+}
+/*boton2*/
+.gDqqEM {
+  border-radius: 80px !important;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  min-width: 180px;
+  outline: 0px;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+  width: auto;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(17, 17, 17) !important;
+  color: rgb(32, 32, 32) !important;
+  min-height: 50px;
+  font-size: 15px;
+}
+.gDqqEM:hover{
+  box-shadow: 0 0 5px rgb(252, 4, 68),
+              0 0 25px rgb(252, 4, 68),
+              0 0 50px rgb(252, 4, 68),
+              0 0 100px rgb(252, 4, 68);
+} 
+
 
 /*pie de pagina*/
 footer {
@@ -145,7 +273,7 @@ footer {
   gap: 20px;
   align-content: center;
   padding-left: 100px;
-  background-color: rgb(104, 41, 202) ;
+  background-color:#171717 ;
 }
 .img-popu {
   width: 200px !important;
@@ -157,9 +285,10 @@ footer {
   padding-top: 50px;
 }
 .fondo-seccion {
-  background-color: rgb(104, 41, 202) ;
+  background-color: rgb(252, 4, 68) ;
   height: 400px;
-  padding-top: 30px;
+  padding-top: 5px !important;
+  border-radius: 1000px;
 }
 .listing-box-image-label {
   background-color: #429a66;
@@ -174,7 +303,7 @@ footer {
   text-transform: uppercase;
 }
 .lista-fondo {
-  background-color: rgb(104, 41, 202) ;
+  background-color:#171717;
 }
 .listing-box-image {
   background-size: cover;
@@ -215,11 +344,12 @@ footer {
 }
 /*titulo*/
 .listing-box-title {
-  background-color: rgb(104, 41, 202);
+  background-color:#fff;
 }
+
 /*precio alquiler*/
 .listing-box-title h3 {
-  color: rgb(104, 41, 202);
+  color: #171717 !important;
   display: block;
   font-size: 1.1em;
   font-weight: 400;
@@ -228,6 +358,14 @@ footer {
   padding: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.listing-box-title a{
+  text-decoration: none;
+  color: #000;
+  padding-top: 10px !important;
+}
+.listing-box-title a:hover{
+  color: rgb(252, 4, 68);
 }
 dl {
   margin-top: 0;
@@ -242,14 +380,14 @@ dl {
 }
 .listing-box-content dd {
   clear: right;
-  color: #928d8d;
+  color: #000;
   float: right;
   font-weight: 600;
   line-height: 30px;
   margin: 0;
 }
 .listing-box {
-  background-color: rgba(164, 164, 165, 0.788) ;
+  background-color: rgb(252, 4, 68) ;
   border-radius: 3px;
   box-shadow: 0 1px 2px rgba(67, 66, 68, 0.185);
   margin: 0 0 30px 0;
@@ -264,10 +402,10 @@ nav.bg-body-tertiary {
   color:rgb(246, 242, 252) ;
 }
 p.text-white{
-  color: rgb(166, 166, 177) !important;
+  color:#171717!important;
 }
 .h2-titulo-popu{
-  color: rgb(85, 22, 168) ;
+  color:#171717;
 }
 .casa_popu{
   color: rgba(141, 140, 140, 0.8);
@@ -305,3 +443,39 @@ p.text-white{
 /* .card:hover{
   transform: translateY(-10px);
 } */
+@media (max-width: 768px){
+  .fondo-seccion{
+    display: none;
+    border-radius: 10px;
+    height: 100px;
+    overflow:scroll;/*para el despliefue*/
+    
+  }
+  .bold{
+    
+    white-space: nowrap;
+    font-size: 11px !important;
+    line-height: 100% !important;
+    top: 0;
+  }
+  .text-white{
+    font-size: 10px !important;
+    
+  }
+  .contenedor-pupular{
+    overflow: scroll;
+  }
+  .parrafo {
+    margin: 15px 20%;
+    color: rgb(21, 23, 28);
+    padding-top: 15px!important;
+    white-space: nowrap;
+  }
+  .tex-aling img{
+    display: none;
+  }
+  .tex-aling span{
+    margin: 0px 20px;
+    margin-bottom: 15px !important;
+  }
+}
