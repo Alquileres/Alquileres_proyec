@@ -22,11 +22,11 @@
      <link href="sylees.css" rel="stylesheet">
   </head>
   <body class="bg-light">
-    <header class=" col-md-6 header">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+    <header class=" col-md-1 header">
+      <nav class="navbar navbar-expand-lg  nav">
         <div class="container-fluid">
            <!-- <img class=" img-logo " src="img/hogar.png" > -->
-          <a  href="index.html" class="navbar-brand logo"><h1>Rent<span>Flex</span><img src="img/hogar.png" width="30px" height="40px" alt=""></h1></a>
+          <a  href="index.html" class="navbar-brand logo"><h1>Rent<span>Flex</span><img src="imagenes/Logo-PhotoRoom.png-PhotoRoom.png" width="30px" height="40px" alt=""></h1></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -95,7 +95,7 @@
                   </div>
                 </div>
   
-                <div class="col-6">
+                <div class="col-sm-6">
                   <label for="username" class="form-label">Nombre de Usuario</label>
                   <div class="input-group has-validation">
                     <span class="input-group-text">@</span>
@@ -106,14 +106,14 @@
                   </div>
                 </div>
   
-                <div class="col-6">
+                <div class="col-sm-6">
                   <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
                   <input type="email" class="form-control" id="email" placeholder="Jose@ejemplo.com">
                   <div class="invalid-feedback">
                     Please enter a valid email address for shipping updates.
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-6">
                   <label for="address2" class="form-label">Número de Teléfono <span class="text-muted">(Solo números)</span></label>
                   <input type="text" class="form-control" id="address2" placeholder="Solo números">
                 </div>
@@ -137,19 +137,23 @@
                   <div class="invalid-feedback">
                   </div>
                 </div>
-                <div class="form-group">
-                  <label for="photo">Adjuntar foto de DNI:</label>
+                <div class="col-sm-6 form-group">
+                  <label for="photo">Adjuntar foto de DNI(Frente)</label>
+                  <input type="file" id="photo" name="photo">
+                </div>
+                <div class="col-sm-6 form-group">
+                  <label for="photo">Adjuntar foto de DNI(Dorso)</label>
                   <input type="file" id="photo" name="photo">
                 </div>
                 
-                <div class="col-6">
+                <div class="col-sm-6">
                   <label for="address" class="form-label">Contraseña</label>
                   <input type="text" class="form-control" id="Solo letras " placeholder="Solo letras y números" required>
                   <div class="invalid-feedback">
                   </div>
                 </div>
   
-                <div class="col-6">
+                <div class="col-sm-6">
                   <label for="address2" class="form-label">Confirmar contraseña <span class="text-muted"></span></label>
                   <input type="text" class="form-control" id="address2" placeholder="Confirmar contraseña">
                 </div>
@@ -220,7 +224,9 @@
                   <label class="form-check-label" for="paypal">No Binario</label>
                 </div>
               </div>
-              <span class="span_bton"><button class="w-50 btn   colorbutton  " type="submit">Registrarse</button></span>
+              <button class="w-90 btn btn-lg boton-color" type="submit">
+                <font style="vertical-align: inherit"><font style="vertical-align: inherit; color: #171717 !important;">Registrarse</font></font>
+              </button>
             </form>
           </div>
         </div>

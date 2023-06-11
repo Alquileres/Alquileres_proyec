@@ -5,7 +5,7 @@ body {
   margin: 0 auto; 
   justify-content: center;
   align-items: center;
-  background: linear-gradient(180deg,#f8f8f8, #dfd9df);
+  background: linear-gradient(180deg, #171717, #171717);
 }
 
 .container {
@@ -42,7 +42,7 @@ body {
 
 .tex-1 {
   flex-direction: row;
-  color:rgb(21, 23, 28);
+  color: #171717;
   
 }
 
@@ -56,14 +56,14 @@ body {
 }
 
 .nav-link {
-  color: rgb(21, 23, 28) !important;
+  color: rgb(217, 221, 230) !important;
   padding-top: 0px !important;
 }
 .nav-link:hover{
-  box-shadow: 0 0 5px rgb(114, 39, 235),
-              0 0 25px rgb(120, 55, 224),
-              0 0 50px rgb(120, 55, 224),
-              0 0 100px rgb(120, 55, 224);
+  box-shadow: 0 0 5px rgb(252, 4, 68),
+              0 0 25px rgb(252, 4, 68),
+              0 0 50px rgb(252, 4, 68),
+              0 0 100px rgb(252, 4, 68);
 }
 
 .tex-aling {
@@ -71,35 +71,34 @@ body {
   margin-bottom: 15px !important;
 }
 .formulario {
-  width: 70%;
+  width: 80%;
   height: 80%;
-  background: linear-gradient(180deg, #316804, #0f040f);
+  background: linear-gradient(180deg, rgb(252, 4, 68), rgb(252, 4, 68));
   border-radius: 50px;
+  position: relative;
 }
 
-.colorbutton {
-  background-color: #0c0711;
-  padding: 10px 20px; 
-  font-size: 16px;
-  border-radius: 5px; 
-}
-.span_bton{
-  padding-left: 150px;
-}
-.form-group {
-  margin-bottom: 20px; /* Ajusta el espaciado entre el campo de adjuntar foto y otros campos */
-}
-
-input[type="file"] {
-  display: block;
+.boton-color {
+  /* background-color: rgb(104, 41, 202) !important; */
+  color: rgb(252, 4, 68) !important;
+  letter-spacing: 4px;/*espacio entre las letras*/
+  background-position: center;
+  
+  
 }
 
 
-@media (max-width: 768px) {
-  .colorbutton {
-    padding: 8px 16px; 
-    font-size: 14px; 
-  }
+/* .form-control {
+  background-color: rgb(120, 125, 143) !important;
+} */
+.boton-color:hover{
+  background-color: rgb(243, 237, 239);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(243, 236, 238),
+              0 0 25px rgb(252, 4, 68),
+              0 0 50px rgb(252, 4, 68),
+              0 0 100px rgb(252, 4, 68);/*esto es para que cora las lineas por el boton*/
 }
 
 
@@ -128,11 +127,11 @@ input[type="file"] {
   text-decoration: none;
 }
 .logo > h1 {
-  color:rgb(9, 10, 10);
+  color:rgb(244, 250, 250);
   padding-left: 30px;
 }
 .logo > h1 > span {
-  color:#570aa0!important;
+  color: rgb(252, 4, 68)!important;
 }
 .textos-about-us .parrafo {
   margin-top: 10px;
