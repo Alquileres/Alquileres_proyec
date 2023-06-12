@@ -466,7 +466,7 @@ p.text-white{
     overflow: scroll;
   }
   .parrafo {
-    margin: 15px 20%;
+    margin: 15px 15%;
     color: rgb(21, 23, 28);
     padding-top: 15px!important;
     white-space: nowrap;
@@ -475,7 +475,7 @@ p.text-white{
     display: none;
   }
   .tex-aling span{
-    margin: 0px 20px;
+    margin: 0px 10px;
     margin-bottom: 15px !important;
   }
 }
