@@ -1,0 +1,149 @@
+body {
+  width: 70%; 
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto; 
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, rgb(248, 248, 250),  rgb(217, 221, 230));
+}
+
+.container {
+  width: 80%; 
+  height: 50%;
+  padding: 30px; 
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%; 
+  }
+
+  .container {
+    width: 90%;  
+  }
+}
+.header {
+  height: 100px;
+  
+}
+.header {
+  border-radius: 4px;
+}
+
+.nav {
+  display: flex;
+  max-width: 992px; 
+  margin: 0 auto; 
+  margin: 40px;
+}
+
+.tex-1 {
+  flex-direction: row;
+  color: #171717;
+  
+}
+
+
+.enlace-nav {
+  text-decoration: none !important;
+  margin: 20px;
+  color: rgb(21, 23, 28);
+  font-family: "Times New Roman", Times, serif;
+  width: max-content; 
+}
+
+.nav-link {
+  color:#171717 !important;
+  padding-top: 0px !important;
+  border-radius: 5px;
+}
+.nav-link:hover{
+  box-shadow: 0 0 5px #171717,
+              0 0 25px #171717,
+              0 0 50px #171717,
+              0 0 100px #171717;
+}
+
+.tex-aling {
+  margin: 0px 80px;
+  margin-bottom: 15px !important;
+}
+.formulario {
+  width: 70%;
+  height: 70%;
+  background: linear-gradient(180deg, rgb(252, 4, 68), rgb(252, 4, 68));
+  border-radius: 40px;
+  position: relative;
+}
+
+.boton-color {
+  /* background-color: rgb(104, 41, 202) !important; */
+  color: rgb(252, 4, 68) !important;
+  letter-spacing: 4px;/*espacio entre las letras*/
+  background-position: center;
+  background-color: rgb(243, 237, 239);
+  
+}
+
+
+/* .form-control {
+  background-color: rgb(120, 125, 143) !important;
+} */
+.boton-color:hover{
+  background-color: rgb(243, 237, 239);
+  color: white;
+  letter-spacing: 4px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(27, 24, 25),
+              0 0 25px rgb(27, 24, 25),
+              0 0 50px rgb(252, 4, 68),
+              0 0 100px rgb(252, 4, 68);
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    height: 300px;
+  }
+
+  .formulario {
+    width: 80%; 
+    height: 80%; 
+  }
+}
+.img-logo {
+  text-decoration: none !important;
+  width: 3% !important;
+  height: 3%;
+}
+.logo {
+  position: relative;
+  left: 30px;
+  display: flex;
+  display: grid;
+  justify-content: space-between;
+  max-width: 992px;
+  text-decoration: none;
+}
+.logo > h1 {
+  color: #171717;
+  padding-left: 30px;
+}
+.logo > h1 > span {
+  color: rgb(252, 4, 68)!important;
+}
+.textos-about-us .parrafo {
+  margin-top: 10px;
+  color:  #171717 ;
+  position: center;
+}
+
+.textos-about-us .parrafo {
+  margin-top: 50px;
+  color:  #171717;
+  text-align: center; 
+  font-size: 14px; 
+}
