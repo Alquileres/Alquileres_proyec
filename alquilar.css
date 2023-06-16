@@ -1,0 +1,108 @@
+
+
+
+
+
+.header {
+  
+    border-radius: 4px;
+  }
+  
+  .nav {
+    display: flex;
+    max-width: 992px; /*para que se centre  los link del menu al medio*/
+    margin: 0 auto; /*quede todo centrado 0 arri y abaj/ auto iz y derech*/
+    margin: 40px;
+  }
+  /* titulo-header */
+  .tex-1 {
+    flex-direction: row;
+    color:rgb(21, 23, 28);
+    
+  }
+  /* estilos a los navegadores */
+  
+  .enlace-nav {
+    text-decoration: none !important;
+    margin: 20px;
+    color: rgb(21, 23, 28);
+    font-family: "Times New Roman", Times, serif;
+    width: max-content; /*para que no me corte el contenido*/
+  }
+  /*el de registrarce*/
+  .nav-link {
+    color: rgb(21, 23, 28) !important;
+    padding-top: 0px !important;
+  }
+  .nav-link:hover{
+    box-shadow: 0 0 5px rgb(252, 4, 68),
+                0 0 25px rgb(252, 4, 68),
+                0 0 50px rgb(252, 4, 68),
+                0 0 100px rgb(252, 4, 68);
+  }
+  /*fondo header*/
+  .tex-aling {
+    margin: 0px 80px;
+    margin-bottom: 15px !important;
+  }
+  .parrafo {
+    margin: 15px 40%;
+    color: rgb(21, 23, 28);
+    padding-top: 15px!important;
+    white-space: nowrap;
+  }
+  .cta {
+    margin: 50px 170px;
+    margin-top: 100px !important;
+    text-decoration: none;
+  }
+
+  .img-logo {
+    text-decoration: none !important;
+    width: 3% !important;
+    height: 3%;
+  }
+  .logo {
+    display: flex;
+    display: grid;
+    justify-content: space-between;
+    max-width: 992px;
+    text-decoration: none;
+    padding-left: 5pxs;
+  }
+  .logo > h1 {
+    color: rgb(21, 23, 28);
+    padding-left: 20px;
+  }
+  .logo > h1 > span {
+    color: rgb(252, 4, 68)!important;
+  }
+  .navbar {
+    padding-left: 5px;
+  }
+  .nav {
+    display: grid;
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px; /*para que se centre tos los link del menu al medio*/
+    margin: 0 auto;
+  }
+  .colum-dos {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  .listas-estilo {
+    display: flex; /*quede en forma orizontal todo los linkd del menu*/
+    margin-right: 20px; /*queden separados entre ellos desde la derecha*/
+    list-style: none; /*borrar los puntitos que tienen la listas por defectos*/
+    padding-left: 50%;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: right;
+  }
+  nav.bg-body-tertiary {
+    background:none!important;
+  }
