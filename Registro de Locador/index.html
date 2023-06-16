@@ -78,14 +78,14 @@
           <form class="needs-validation" novalidate>
             <form class="needs-validation" novalidate>
               <div class="row g-3">
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="firstName" class="form-label">Nombre Completo</label>
                   <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
                   <div class="invalid-feedback">
                   </div>
                 </div>
   
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="lastName" class="form-label">Apellido</label>
                   <input type="text" class="form-control" id="lastName" placeholder="Apellido" value="" required>
                   <div class="invalid-feedback">
@@ -93,7 +93,7 @@
                   </div>
                 </div>
   
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="username" class="form-label">Nombre de Usuario</label>
                   <div class="input-group has-validation">
                     <span class="input-group-text">@</span>
@@ -104,54 +104,54 @@
                   </div>
                 </div>
   
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
                   <input type="email" name="correo"  class="form-control" id="email" placeholder="Jose@ejemplo.com">
                   <div class="invalid-feedback">
                     Please enter a valid email address for shipping updates.
                   </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="address2" class="form-label">Número de Teléfono <span class="text-muted">(Solo números)</span></label>
                   <input type="tel" class="form-control" id="address2" placeholder="Solo números">
                 </div>
   
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="lastName" class="form-label">Dirección</label>
                   <input type="text" class="form-control" id="lastName" placeholder="Barrio y Dirección" value="" required>
                   <div class="invalid-feedback">
                   </div>
                 </div>
                
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="lastName" class="form-label">Codigo Postal</label>
                   <input type="text" class="form-control" id="lastName" placeholder="Codigo Postal" value="" required>
                   <div class="invalid-feedback">
                   </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="lastName" class="form-label">CUIL/CUIT</label>
                   <input type="number" class="form-control" id="lastName" placeholder="Solo números sin puntos" value="" required>
                   <div class="invalid-feedback">
                   </div>
                 </div>
-                <div class="col-sm-6 form-group">
+                <div class="col-sm-6 form-group inputBox">
                   <label for="photo">Adjuntar foto de DNI(Frente)</label>
                   <input type="file" id="photo" name="photo">
                 </div>
-                <div class="col-sm-6 form-group">
+                <div class="col-sm-6 form-group inputBox">
                   <label for="photo">Adjuntar foto de DNI(Dorso)</label>
                   <input type="file" id="photo" name="photo">
                 </div>
                 
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="address" class="form-label">Contraseña</label>
                   <input type="password" class="form-control" id="Solo letras " placeholder="Solo letras y números" required>
                   <div class="invalid-feedback">
                   </div>
                 </div>
   
-                <div class="col-sm-6">
+                <div class="col-sm-6 inputBox">
                   <label for="address2" class="form-label">Confirmar contraseña <span class="text-muted"></span></label>
                   <input type="password" class="form-control" id="address2" placeholder="Confirmar contraseña">
                 </div>
@@ -160,7 +160,7 @@
   
   
                 <hr class="my-3">
-                <div class="col-sm-6 form-group">
+                <div class="col-sm-6 form-group inputBox">
                   <label for="link">Fecha de Nacimiento</label>
                   <input type="date" id="link" name="link">
                 </div>
@@ -171,27 +171,27 @@
       <br><br>
               <h4 class="mb-3">Género</h4>
   
-              <div class="my-3">
+              <div class="my-3 inputBox">
                 <div class="form-check">
                   <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
                   <label class="form-check-label" for="credit">Femenino</label>
                 </div>
-                <div class="form-check">
+                <div class="form-check inputBox">
                   <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
                   <label class="form-check-label" for="debit">Masculino</label>
                 </div>
-                <div class="form-check">
+                <div class="form-check inputBox">
                   <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
                   <label class="form-check-label" for="paypal">No Binario</label>
                 </div>
               </div>
-              <div class="col-sm-6 form-group">
+              <div class="col-sm-6 form-group inputBox">
                 <label for="link">Adjuntar link de la Ubicación del Inmueble</label>
                 <input type="url" id="link" name="link">
               </div>
               
               <hr class="my-3">
-              <div class="col-sm-6 form-group">
+              <div class="col-sm-6 form-group inputBox">
                 <label for="photo">Adjuntar  modelo de Contrato</label>
                 <input type="file" id="photo" name="photo">
               </div>
@@ -199,7 +199,7 @@
               <ul class="list-inline ">
                 <li class="list-inline-item "><a href="#">Leer Términos y Condiciones</a></li>
               </ul>
-              <div class="checkbox mb-3">
+              <div class="checkbox mb-3 inputBox">
                 <label>
                   <input type="checkbox" value="remember-me"><font style="vertical-align: inherit"><font style="vertical-align: inherit; color: rgb(0, 0, 0) !important">Acepto los terminos y condiciones
                     </font></font></label>
