@@ -400,8 +400,8 @@ footer {
 .fondo-seccion {
   background-color: rgb(252, 4, 68) ;
   height: 400px;
-  padding-top: 5px !important;
-  border-radius: 1000px;
+  padding-top: 1px !important;
+  border-radius: 0%;
 }
 .listing-box-image-label {
   background-color: #429a66;
@@ -671,10 +671,350 @@ p.text-white{
 
 
 
+/*car popu nuevo*/
+.jURzPK {
+  margin: 30px 0px;
+  min-width: 100%;
+}
 
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+.jyVwse {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 20px;
+}
+.jyVwse > button:disabled {
+  cursor: not-allowed;
+}
+.jyVwse > .previous-button {
+  transform: rotate(90deg);
+}
+.jyVwse > button {
+  height: 40px;
+  width: 40px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+.jyVwse > button:disabled {
+  cursor: not-allowed;
+}
+.DLAPO {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  gap: 20px;
+}
+.bUItJK {
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid rgb(231, 231, 231);
+  box-shadow: rgba(32, 32, 32, 0.04) 0px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  height: 337px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  min-width: 300px;
+  margin: 30px 40px;
+}
+.bUItJK > img {
+  box-shadow: rgba(32, 32, 32, 0.15) 0px 15px 20px;
+  margin-top: -1px;
+  width: 100%;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.bUItJK > .links-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 10px 14px;
+  width: 100%;
+  gap: 5px;
+}
 
+.bUItJK > .links-container > a {
+  font-family: "Red Hat Text";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+a {
+  text-decoration: none;
+  color: rgb(68, 66, 66);
+}
+a {
+  text-decoration: none !important;
+  color: rgb(228, 8, 74) !important;
+}
+a :hover{
+  color: rgb(0, 0, 0) !important;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.bUItJK::after {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: rgba(32, 32, 32, 0.04) 0px 5px 15px;
+  content: "Cerca de la UNAF";
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  height: 34px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  line-height: 22px;
+  position: absolute;
+  top: -1px;
+  width: 200px;
+  z-index: 9999;
+}
+.bcJvtr {
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid rgb(231, 231, 231);
+  box-shadow: rgba(32, 32, 32, 0.04) 0px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  height: 337px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  min-width: 300px;
+  margin: 30px 40px;
+}
+.bcJvtr > img {
+  box-shadow: rgba(32, 32, 32, 0.15) 0px 15px 20px;
+  margin-top: -1px;
+  width: 100%;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.bcJvtr > .links-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 10px 14px;
+  width: 100%;
+  gap: 5px;
+}
+.bcJvtr > .links-container > a {
+  font-family: "Red Hat Text";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.bcJvtr::after {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: rgba(32, 32, 32, 0.04) 0px 5px 15px;
+  content: " Moreno";
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  height: 34px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  line-height: 22px;
+  position: absolute;
+  top: -1px;
+  width: 200px;
+  z-index: 9999;
+}
+.jnZgv {
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid rgb(231, 231, 231);
+  box-shadow: rgba(32, 32, 32, 0.04) 0px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  height: 337px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  min-width: 300px;
+  margin: 30px 40px;
+}
+.jnZgv > img {
+  box-shadow: rgba(32, 32, 32, 0.15) 0px 15px 20px;
+  margin-top: -1px;
+  width: 100%;
+}
+.jnZgv > .links-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 10px 14px;
+  width: 100%;
+  gap: 5px;
+}
+.jnZgv > .links-container > a {
+  font-family: "Red Hat Text";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.jnZgv::after {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: rgba(32, 32, 32, 0.04) 0px 5px 15px;
+  content: "Cerca de la Cruz";
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  height: 34px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  line-height: 22px;
+  position: absolute;
+  top: -1px;
+  width: 200px;
+  z-index: 9999;
+}
+.dTWREO {
+  -webkit-box-align: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  border: 1px solid rgb(231, 231, 231);
+  box-shadow: rgba(32, 32, 32, 0.04) 0px 5px 10px;
+  display: flex;
+  flex-direction: column;
+  height: 337px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  transition: all 0.3s ease-in-out 0s;
+  min-width: 300px;
+  margin: 30px 40px;
+}
+.dTWREO > img {
+  box-shadow: rgba(32, 32, 32, 0.15) 0px 15px 20px;
+  margin-top: -1px;
+  width: 100%;
+}
+.dTWREO > .links-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0%;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 10px 14px;
+  width: 100%;
+  gap: 5px;
+}
+.dTWREO > .links-container > a {
+  font-family: "Red Hat Text";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.dTWREO::after {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: rgba(32, 32, 32, 0.04) 0px 5px 15px;
+  content: "Cerca de la Terminal";
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  height: 34px;
+  -webkit-box-pack: center;
+  justify-content: center;
+  line-height: 22px;
+  position: absolute;
+  top: -1px;
+  width: 200px;
+  z-index: 9999;
+}
 
+/*BOTON RECORRER CARRUSERL*/
+.jyVwse > .next-button {
+  transform: rotate(270deg);
+}
+.jyVwse > button {
+  height: 40px;
+  width: 40px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+}
+svg:not(:root) {
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}
+:not(svg) {
+  transform-origin: 0px 0px;
+}
 
+/*/BOTON CAMBIAR*/
+
+.hYtGoo {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.benDMP {
+  cursor: pointer;
+  margin: 0px 5px;
+  font-size: 40px;
+  color: rgb(252, 4, 68);
+}
+.dQPDww {
+  cursor: pointer;
+  margin: 0px 5px;
+  font-size: 40px;
+  color: gray;
+}
 
 
 

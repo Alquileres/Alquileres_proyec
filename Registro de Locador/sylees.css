@@ -199,3 +199,12 @@ section .container form .forget a {
   cursor: pointer;
   text-decoration: none;
 }
+/*terminos y condiciones */
+.list-inline-item a{
+  color: white !important;
+  text-decoration: none !important;
+}
+.list-inline-item a:hover{
+  color: rgb(0, 0, 0) !important;
+  
+}

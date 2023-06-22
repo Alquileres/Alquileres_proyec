@@ -252,3 +252,152 @@ transform:translateY(-5px);
 60% {
 transform:translateY(-5px);
 } */
+
+/*imagenes populares*/
+.alinear-img-popular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) !important;
+  list-style: none;
+  gap: 20px;
+  align-content: center;
+  padding-left: 100px;
+  background-color:#171717 ;
+}
+.img-popu {
+  width: 200px !important;
+}
+/*titulo*/
+.h2-titulo-popu {
+  text-align: center !important;
+  padding-bottom: 50px !important;
+  padding-top: 50px;
+}
+.fondo-seccion {
+  background-color: rgb(252, 4, 68) ;
+  height: 400px;
+  padding-top: 5px !important;
+  border-radius: 1000px;
+}
+.listing-box-image-label {
+  background-color: #429a66;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 4px 12px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-transform: uppercase;
+}
+.lista-fondo {
+  background-color:#171717;
+}
+.listing-box-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 3px 3px 0 0;
+  height: 160px;
+  position: relative;
+}
+.listing-box-image-links {
+  background-color: rgba(255, 255, 255, 0.952);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: opacity 0.15s linear;
+}
+/*h2 titulo del enlace*/
+.listing-box-title h2 {
+  display: block;
+  font-size: 1.25em;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
+/*lista del contenido del alquiler*/
+.listing-box-content {
+  font-size: 0.95em;
+  padding: 20px;
+}
+/*titulo*/
+.listing-box-title {
+  background-color:#fff;
+}
+
+/*precio alquiler*/
+.listing-box-title h3 {
+  color: #171717 !important;
+  display: block;
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 7px 0 0 0;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listing-box-title a{
+  text-decoration: none;
+  color: #000;
+  padding-top: 10px !important;
+}
+.listing-box-title a:hover{
+  color: rgb(252, 4, 68);
+}
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.listing-box-content dt {
+  clear: left;
+  color: #fffcfc;
+  float: left;
+  font-weight: 400;
+  line-height: 30px;
+}
+.listing-box-content dd {
+  clear: right;
+  color: #000;
+  float: right;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0;
+}
+.listing-box {
+  background-color: rgb(252, 4, 68) ;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(67, 66, 68, 0.185);
+  margin: 0 0 30px 0;
+  overflow: hidden;
+  transition: box-shadow 0.15s linear;
+}
+
+nav.bg-body-tertiary {
+  background:none!important;
+}
+.bold{
+  color:rgb(246, 242, 252) ;
+}
+p.text-white{
+  color:#171717!important;
+}
+.h2-titulo-popu{
+  color:#171717;
+}
+.casa_popu{
+  color: rgba(141, 140, 140, 0.8);
+}
+.casa_popu:hover{
+  color:rgb(255, 255, 255)  ;
+}
