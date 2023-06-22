@@ -18,16 +18,15 @@
 
 @media (max-width: 768px) {
   body {
-    width: 100%; 
+    width: 100%;
   }
 
   .container {
-    width: 90%;  
+    width: 90%;
   }
 }
 .header {
   height: 100px;
-  
 }
 .header {
   border-radius: 4px;
@@ -35,36 +34,32 @@
 
 .nav {
   display: flex;
-  max-width: 992px; 
-  margin: 0 auto; 
+  max-width: 992px;
+  margin: 0 auto;
   margin: 40px;
 }
 
 .tex-1 {
   flex-direction: row;
   color: #171717;
-  
 }
-
 
 .enlace-nav {
   text-decoration: none !important;
   margin: 20px;
   color: rgb(21, 23, 28);
   font-family: "Times New Roman", Times, serif;
-  width: max-content; 
+  width: max-content;
 }
 
 .nav-link {
-  color:#171717 !important;
+  color: #171717 !important;
   padding-top: 0px !important;
   border-radius: 5px;
 }
-.nav-link:hover{
-  box-shadow: 0 0 5px #171717,
-              0 0 25px #171717,
-              0 0 50px #171717,
-              0 0 100px #171717;
+.nav-link:hover {
+  box-shadow: 0 0 5px #171717, 0 0 25px #171717, 0 0 50px #171717,
+    0 0 100px #171717;
 }
 
 .tex-aling {
@@ -72,15 +67,14 @@
   margin-bottom: 15px !important;
 }
 
-
 @media (max-width: 768px) {
   .header {
     height: 300px;
   }
 
-  section{
-    width: 50% !important; 
-    height: 50% !important; 
+  section {
+    width: 50% !important;
+    height: 50% !important;
   }
 }
 .img-logo {
@@ -102,10 +96,8 @@
   padding-left: 30px;
 }
 .logo > h1 > span {
-  color: rgb(252, 4, 68)!important;
+  color: rgb(252, 4, 68) !important;
 }
-
-
 
 /*NUEVO REGISTRO*/
 
@@ -283,11 +275,7 @@ section .container form .forget a {
   display: grid;
   grid-template-columns: repeat(2, 1fr) !important;
 }
-.boton-registrar{
+.boton-registrar {
   display: flex;
   justify-content: center !important;
-}
-.boton-registrar:hover{
-  background-color: #171717 !important;
-  color: #fff !important;
 }
