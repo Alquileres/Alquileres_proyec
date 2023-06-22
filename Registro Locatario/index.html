@@ -77,79 +77,62 @@
       
     </header>
     <main class="d-flex justify-content-center align-items-center">
-      <section class="formulario list-group mb-3">
-        <div class="container">
-          <h4 class="mb-4 text-center">Registrese...</h4>
-          <form class="needs-validation" novalidate>
-            <form class="needs-validation" novalidate>
-              <div class="row g-3">
-                <div class="col-sm-6">
-                  <label for="firstName" class="form-label">Nombre Completo</label>
-                  <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
-                  <div class="invalid-feedback">
-                  </div>
-                </div>
+      <section>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="box">
+          <div class="square" style="--i: 0"></div>
+          <div class="square" style="--i: 1"></div>
+          <div class="square" style="--i: 2"></div>
+          <div class="square" style="--i: 3"></div>
+          <div class="square" style="--i: 4"></div>
+          <div class="container">
+            <div class="from">
+              <div class="inicio-volver">
+                <h2>Registrese</h2>
+                <h2>
+                  <a
+                    style="
+                      text-decoration: none !important;
+                      color: white !important;
+                    "
+                    href="/index.html"
+                    >Volver</a
+                  >
+                </h2>
+              </div>
   
-                <div class="col-sm-6">
-                  <label for="lastName" class="form-label">Apellido</label>
-                  <input type="text" class="form-control" id="lastName" placeholder="Apellido" value="" required>
-                  <div class="invalid-feedback">
-                    Valid last name is required.
-                  </div>
-                </div>
-  
-                <div class="col-sm-6">
+              <form>
+                <div class="inputBox">
                   <label for="username" class="form-label">Nombre de Usuario</label>
                   <div class="input-group has-validation">
                     <span class="input-group-text">@</span>
                     <input type="text" class="form-control" id="Usuario" placeholder="Usuario" required>
-                  <div class="invalid-feedback">
+                    <div class="invalid-feedback">
                     
-                    </div>
+                     </div>
                   </div>
                 </div>
-  
-                <div class="col-sm-6">
-                  <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
-                  <input type="email" class="form-control" id="email" placeholder="Jose@ejemplo.com">
-                  <div class="invalid-feedback">
-                    Please enter a valid email address for shipping updates.
-                  </div>
+                <div class="inputBox">
+                  <label for="email" class="form-label">Email <span class="text-muted"></span></label>
+                  <input type="email" class="form-control" id="email" placeholder="seguido@gmail.com">
+                  
                 </div>
-                <div class="col-sm-6">
+                <div class="inputBox">
                   <label for="address2" class="form-label">Número de Teléfono <span class="text-muted">(Solo números)</span></label>
                   <input type="tel" class="form-control" id="address2" placeholder="Solo números">
+                  
                 </div>
-  
-                <div class="col-sm-6">
-                  <label for="lastName" class="form-label">Localidad</label>
-                  <input type="text" class="form-control" id="lastName" placeholder="Barrio y Dirección" value="" required>
-                  <div class="invalid-feedback">
-                  </div>
-                </div>
-               
-                <div class="col-sm-6">
-                  <label for="lastName" class="form-label">Codigo Postal</label>
-                  <input type="text" class="form-control" id="lastName" placeholder="Codigo Postal" value="" required>
-                  <div class="invalid-feedback">
-                  </div>
-                </div>
-                <div class="col-sm-6">
-                  <label for="lastName" class="form-label">CUIL/CUIT</label>
+
+                <div class="inputBox">
+                  <label for="lastName" class="form-label">DNI</label>
                   <input type="number" class="form-control" id="lastName" placeholder="Solo números sin puntos" value="" required>
                   <div class="invalid-feedback">
                   </div>
                 </div>
-                <div class="col-sm-6 form-group">
-                  <label for="photo">Adjuntar foto de DNI(Frente)</label>
-                  <input type="file" id="photo" name="photo">
-                </div>
-                <div class="col-sm-6 form-group">
-                  <label for="photo">Adjuntar foto de DNI(Dorso)</label>
-                  <input type="file" id="photo" name="photo">
-                </div>
-                
-                <div class="col-sm-6">
+
+                <div class="inputBox">
                   <label for="address" class="form-label">Contraseña</label>
                   <input type="password" class="form-control" id="Solo letras " placeholder="Solo letras y números" required>
                   <div id="passwordHelpBlock" class="form-text">
@@ -158,51 +141,29 @@
                   <div class="invalid-feedback">
                   </div>
                 </div>
-                
-  
-                <div class="col-sm-6">
+
+                <div class="inputBox">
                   <label for="address2" class="form-label">Confirmar contraseña <span class="text-muted"></span></label>
                   <input type="password" class="form-control" id="address2" placeholder="Confirmar contraseña">
+                  
                 </div>
-               
-                <div class="col-sm-6 form-group">
-                  <label for="form-label">Fecha de Nacimiento</label>
-                  <input type="date" id="address2" name="link">
+                <hr class="my-3">
+
+                <div class="inputBox boton-registrar">
+                  <input  type="submit" value="Registrarse" />
                 </div>
-              </div>
-              <hr class="my-3">
-              <h4 class="col-sm-6">Género</h4>
-              <div class="my-3">
-                <div class="form-check">
-                  <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
-                  <label class="form-check-label" for="credit">Femenino</label>
-                </div>
-                <div class="form-check">
-                  <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
-                  <label class="form-check-label" for="debit">Masculino</label>
-                </div>
-                <div class="form-check">
-                  <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
-                  <label class="form-check-label" for="paypal">No Binario</label>
-                </div>
-              </div>
-              <hr class="my-3">
-              <ul class="list-inline ">
-                <li class="list-inline-item "><a href="#">Leer Términos y Condiciones</a></li>
-              </ul>
-              <div class="checkbox mb-3">
-                <label>
-                  <input type="checkbox" value="remember-me"><font style="vertical-align: inherit"><font style="vertical-align: inherit; color: rgb(0, 0, 0) !important">Acepto los terminos y condiciones
-                    </font></font></label>
-              </div>
-              <button class="w-100 btn btn-lg boton-color" type="submit">
-                <font style="vertical-align: inherit"><font style="vertical-align: inherit; color: #171717!important;">Registrarse</font></font>
-              </button>
-            </form>
-            
+                <p class="forget"><a href="#">¿Olvidaste tu contraseña?</a></p>
+                <p class="forget"><a href="#">¿Ya tienes una cuenta? </a></p>
+              </form>
+            </div>
           </div>
         </div>
       </section>
+  
+
+
+
+      
     </main>
   <footer class="my-5 pt-5 text-muted text-center text-small">
     <p class="mb-1">&copy; 2023- Mereles Juliana- Gonzalez Malena- Villalba Milagros</p>

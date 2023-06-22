@@ -1,3 +1,6 @@
 {
-    "liveServer.settings.port": 5501
+    
+    "vscode_custom_css.imports": [
+        "file:///C:/users/Milagros Villalba/Proyec_RentFlex/Alquileres_proyec/synthwave84.css"
+    ]
 }
