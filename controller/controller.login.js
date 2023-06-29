@@ -52,4 +52,127 @@ usuarioCtrl.crearUsuario = async (req, res) => {
     });
   }
 };
+// Ctrl para obtener datos de un único usuario
+usuarioCtrl.obtenerUsuario = async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    const usuario = await Usuario.findByPk(id);
+
+    if (!usuario) {
+      throw {
+        status: 404,
+        message: "No se ha encontrado el usuario",
+      };
+    }
+
+    return res.json(usuario);
+  } catch (error) {
+    console.log(error);
+    return res.status(error.status || 500).json({
+      message: error.message,
+    });
+  }
+};
+// Controlador para obtener todos los usuarios
+usuarioCtrl.obtenerUsuarios = async (req, res) => {
+  try {
+    const usuarios = await Usuario.findAll({
+      where: {
+        estado: true,
+      },
+    });
+
+    if (!usuarios) {
+      throw {
+        status: 404,
+        message: "No se encontraron usuarios",
+      };
+    }
+
+    return res.status(200).json(usuarios);
+  } catch (error) {
+    console.log(error);
+    return res.status(error.status || 500).json({
+      message: error.message || "Error al obtener los usuarios",
+    });
+  }
+};
+//ctrol para actualizar usuario
+usuarioCtrl.actualizarUsuario = async (req, res) => {
+  const { id } = req.params;
+
+  const { Usuario, email } = req.body;
+
+  try {
+    const usuarioActualizado = await Usuario.update(
+      {
+        username,
+        email,
+      },
+      {
+        where: {
+          id,
+        },
+      }
+    );
+
+    if (!usuarioActualizado) {
+      throw {
+        status: 400,
+        message: "No se pudo actualizar el usuario",
+      };
+    }
+
+    return res.json({
+      message: "Usuario actualizado correctamente",
+      usuarioActualizado,
+    });
+  } catch (error) {
+    console.log(error);
+    return res.status(error.status || 500).json({
+      message:
+        error.message || "Error de servidor, contacte al area de sistemas",
+    });
+  }
+};
+// Ctrl para eliminar un usuario de forma lógica
+usuarioCtrl.eliminarUsuario = async (req, res) => {
+  const { id } = req.params;
+
+  try {
+    // Se cambia el estado del registro a false para indicar que el usuario fue eliminado
+    const usuarioEliminado = Usuario.update(
+      {
+        estado: false,
+      },
+      {
+        where: {
+          id,
+          estado: true,
+        },
+      }
+    );
+
+    // Si la BD devuelve false, significa que no eliminó
+    if (!usuarioEliminado) {
+      throw {
+        status: 400,
+        message: "Error al eliminar usuario",
+      };
+    }
+
+    // Si pasa la validación
+    return res.json({
+      message: "Usuario eliminado con éxito",
+    });
+  } catch (error) {
+    console.log(error);
+    return res.status(error.status || 5000).json({
+      message:
+        error.message || "Error de servidor, contacte al área de sistemas",
+    });
+  }
+};
+
 module.exports = usuarioCtrl;
