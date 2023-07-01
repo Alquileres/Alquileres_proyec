@@ -1,0 +1,182 @@
+
+<%- include('partials/header')  %>
+  <!-- menu de navegacion primera pagina -->
+  <header class=" col-md-6 header">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
+      <div class="container-fluid">
+         <!-- <img class=" img-logo " src="img/hogar.png" > -->
+        <a style="text-decoration: none !important;"  href="index.html" class="navbar-brand logo tex-color"><h1>mi<span>Alqui</span><img src="img/hogar.png" width="30px" height="40px" alt=""></h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav tex-color">
+            <li class="nav-item menu-nav">
+              <a class="nav-link active enlace-nav tex-color" aria-current="page" href="/Public/Alquileres/alquilar.html"><b>Alquilar</b> </a>
+            </li>
+            <li class="nav-item menu-nav">
+              <a class="nav-link enlace-nav tex-color" href="#"><b>Ofertas</b></a>
+            </li>
+            <li class="nav-item menu-nav">
+              <a class="nav-link enlace-nav tex-color" href="#"><b>Mapa</b></a></a>
+            </li>
+            <li class="nav-item menu-nav">
+              <a class="nav-link enlace-nav tex-color" href="#"><b>Contactos</b></a></a>
+            </li>
+            <li class="nav-item menu-nav">
+              <a class="nav-link enlace-nav tex-color" href="publicar/publicar.html"><b>Publica</b></a></a>
+            </li>
+            <li class="nav-item dropdown menu-nav">
+              <a class="nav-link dropdown-toggle enlace-nav tex-color" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <b>Registrate</b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a  class="dropdown-item " href="/registro_locatario">Como Locador</a></li>
+                <li><a class="dropdown-item " href="./auth/registro_locatario/registro.ejs">Como Locatario</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item dropdown menu-nav">
+              <a class="nav-link dropdown-toggle enlace-nav tex-color" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <b>InicioSeccion</b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/views/auth/inicio_seccion/como_locador/inicio.ejs">Como Locador</a></li>
+                <li><a class="dropdown-item" href="/views/auth/inicio_seccion/como_locatario/login.ejs">Como Locatario</a></li>
+                
+              </ul>
+            </li>
+            <li>
+              <label class="switch">
+                <input type="checkbox" class="checkbox">
+                <div class="slider"></div>
+            </label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+  </header>
+  <main>
+    <div class="container-fluid">
+        <!-- fondo de header -->
+        <div class="fondo-header">
+          <div class="textos-hero">
+         
+            <h1 class="tex-aling">
+              <span class="tex-1 tex-color">Tu nuevo Hogar</span> 
+              <span class="tex-1 tex-color">te esta Esperando</span> 
+              <img src="/Public/img/background-image.webp" width="40%" height="40%" alt=""class=" imagen "/>
+            </h1>
+          </div>
+          <span><p class="parrafo tex-color">Tenemos la Mejor Selecion de Alquileres para ti</p></span>
+          <div class="botones-alineacion">
+            <a style="text-decoration: none !important;"  href="/Public/Alquileres/alquilar.html"><button type="button" class="btn boton-color  iRCgEU" data-toggle="button" aria-pressed="false" autocomplete="off"  >Alquilar</button></a>
+            <a style="text-decoration: none !important;"  href="/Public/publicar/publicar.html"><button type="button" class="btn boton-color-2  iRCgEU-2" data-toggle="button" aria-pressed="false" autocomplete="off" href="/Public/publicar/publicar.html">Publicar</button></a>
+              <a href="#abajo"><button type="button" class="btn  boton-popular gDqqEM"   data-toggle="button  " aria-pressed="false" autocomplete="off "  >Populares</button> </a>
+              <div class="col-md-4 selecion-alqui">
+                <label for="state" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">¿Que quieres alquilar?</font></font></label>
+                <select class="form-select" id="state" required="">
+                  <option value=""><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Departamento</font></font></option>
+                  <option><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Casa</font></font></option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+              <div class="group">
+                <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                <input placeholder="Search" type="search" class="input">
+              </div>
+              
+            </div> 
+      </div><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <div class="fondo-seccion">
+      <section class="cta section-padding">
+          <div class="container">
+              <div class="row justify-content-center">
+                  <div class="col-md-9">
+                      <div class="cta-text">
+                            <h2 class="bold">Sabés dónde buscás, sabés con quien tratás</h2>
+                            <p class="text-white">En miAlqui vas a encontrar el ALQUILER que estás buscando, porque tenemos la oferta unificada de más de 2000 corredores inmobiliarios de Formosa Capital . Además, contás con la  la informacion y seguridad que nesesitas y la tranquilidad que te brinda tratar exclusivamente con profesionales matriculados.</p>
+                            <p class="text-white"><b>Cuando buscás en miAlqui, encontrás seguro.</b></p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+  </div><br><br><br><br>
+       <!-- Alquileres mas populares -->
+       <a id="abajo"></a>
+      
+      
+      </section>
+
+      <section>  
+        <h2 class="h2-titulo-popu">Ubicaciones de Alquileres Más Populares</h2>
+          <div class="sc-eyvILC jURzPK">
+            <div class="sc-gfoqjT jyVwse">
+            <button class="previous-button" disabled="">
+              <svg viewBox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" width="20">
+                <path fill="#AAA9AA" d="M10.49 11.8c.48-.09.921-.32 1.27-.66l6.82-6.8A2.46 2.46 0 0015.11.86L10 6 4.86.86a2.44 2.44 0 00-3.982.798A2.4 2.4 0 00.7 2.6a2.45 2.45 0 00.71 1.74l6.83 6.8a2 2 0 00.85.53c.44.193.931.238 1.4.13z">
+
+                </path>
+              </svg>
+            </button>
+            <div class="sc-kbousE DLAPO">
+                  <div name="cerca de la UNAF" class="sc-fifgRP bUItJK">
+                    <img src="img/de-la-UNAF.jpg" loading="lazy" alt="commune">
+                    <div class="links-container">
+                      <a href="/ar/departamento/alquiler/localidad/10322-rosario?prev=landing-slider" rel="noopener noreferrer" target="_blank">Departamentos en alquiler</a>
+                      <a href="/ar/departamento/venta/localidad/10322-rosario?prev=landing-slider" rel="noopener noreferrer" target="_blank">Departamentos en venta</a>
+                      <a href="/ar/casa/alquiler/localidad/10322-rosario?prev=landing-slider" rel="noopener noreferrer" target="_blank">Casas en alquiler</a>
+                      <a href="/ar/casa/venta/localidad/10322-rosario?prev=landing-slider" rel="noopener noreferrer" target="_blank">Casas en venta</a>
+                    </div>
+                  </div>
+                  <div name="Moreno" class="sc-fifgRP bcJvtr">
+                    <img src="https://d3ol89rt4kgjtl.cloudfront.net/landings/comuna/photo-mendoza.webp" loading="lazy" alt="commune">
+                    <div class="links-container">
+                      <a href="/ar/departamento/alquiler/localidad/9277-mendoza?prev=landing-slider" rel="noopener noreferrer" target="_blank">Departamentos en alquiler</a>
+                      <a href="/ar/departamento/venta/localidad/9277-mendoza?prev=landing-slider" rel="noopener noreferrer" target="_blank">Departamentos en venta</a>
+                      <a href="/ar/casa/alquiler/localidad/9277-mendoza?prev=landing-slider" rel="noopener noreferrer" target="_blank">Casas en alquiler</a>
+                      <a href="/ar/casa/venta/localidad/9277-mendoza?prev=landing-slider" rel="noopener noreferrer" target="_blank">Casas en venta</a>
+                    </div>
+                  </div>
+                  <div name="Cerca de la Cruz" class="sc-fifgRP jnZgv">
+                    <img src="img/cerca-la-cruz.jpg" loading="lazy" alt="commune">
+                    <div class="links-container">
+                      <a href="/ar/departamento/alquiler/localidad/74-cordoba?prev=landing-slider" rel="noopener noreferrer" target="_blank">Departamentos en alquiler</a>
+                      <a href="/ar/departamento/venta/localidad/74-cordoba?prev=landing-slider" rel="noopener noreferrer" target="_blank">Departamentos en venta</a>
+                      <a href="/ar/casa/alquiler/localidad/74-cordoba?prev=landing-slider" rel="noopener noreferrer" target="_blank">Casas en alquiler</a>
+                      <a href="/ar/casa/venta/localidad/74-cordoba?prev=landing-slider" rel="noopener noreferrer" target="_blank">Casas en venta</a>
+                    </div>
+                  </div>
+                  <div name="Cerca de la Plaza San Martin" class="sc-fifgRP dTWREO">
+                    <img src="https://d3ol89rt4kgjtl.cloudfront.net/landings/comuna/photo-mardelplata.webp" loading="lazy" alt="commune">
+                    <div class="links-container">
+                      <a href="/ar/departamento/alquiler/localidad/7324-mar-del-plata?prev=landing-slider" rel="noopener noreferrer" target="_blank">Departamentos en alquiler</a>
+                      <a href="/ar/departamento/venta/localidad/7324-mar-del-plata?prev=landing-slider" rel="noopener noreferrer" target="_blank">Departamentos en venta</a>
+                      <a href="/ar/casa/alquiler/localidad/7324-mar-del-plata?prev=landing-slider" rel="noopener noreferrer" target="_blank">Casas en alquiler</a>
+                      <a href="/ar/casa/venta/localidad/7324-mar-del-plata?prev=landing-slider" rel="noopener noreferrer" target="_blank">Casas en venta</a>
+                    </div>
+                  </div>
+                </div>
+                <button class="next-button">
+                  <svg viewBox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" width="20">
+                    <path fill="#FC0444" d="M10.49 11.8c.48-.09.921-.32 1.27-.66l6.82-6.8A2.46 2.46 0 0015.11.86L10 6 4.86.86a2.44 2.44 0 00-3.982.798A2.4 2.4 0 00.7 2.6a2.45 2.45 0 00.71 1.74l6.83 6.8a2 2 0 00.85.53c.44.193.931.238 1.4.13z">
+
+                    </path>
+                  </svg>
+                </button>
+              </div>
+              <div class="sc-sLsrZ hYtGoo">
+                <span class="sc-dBmzty benDMP">•</span>
+                <span class="sc-dBmzty dQPDww">•</span></div></div>
+          </div>
+        </section>
+      
+      
+  </main>
+
+  <%- include('partials/footer')  %>

@@ -1,14 +1,15 @@
+//  config de dotenv
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
-const port = process.env.PORT || 5500;
 const path = require("path");
 
-//  config de dotenv
-require("dotenv").config();
+const port = process.env.PORT || 5500;
+require("ejs");
 
 // Se importa la instancia de conexión a la base de datos - (debe ser después de leer las variables de entorno)
-const { sequelize } = require("./db");
+const { sequelize } = require("./config/db");
 
 // Conexión a base de datos
 sequelize
@@ -27,8 +28,11 @@ app.use(express.json());
 // Archivos estáticos utilizando la librería path que viene en NodeJS
 app.use(express.static(path.join(__dirname, "public")));
 
+// Configuración de motor de plantillas EJS
+app.set("view engine", "ejs");
+
 // Configuración de rutas
-app.use(require("./router/rut.login.locatario"));
+app.use(require("./router/auth.rutas"));
 app.use(require("./router/rut.Reg.Locatario"));
 
 // Servidor en escucha de peticiones
