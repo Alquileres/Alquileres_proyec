@@ -6,7 +6,7 @@ formLogin.addEventListener("submit", async (e) => {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
-  const response = await fetch("http://localhost:4000/api/login", {
+  const response = await fetch("http://localhost:5500/api/login_locatario", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -27,6 +27,6 @@ formLogin.addEventListener("submit", async (e) => {
 
   // Redireccionar a la vista de tareas
   setTimeout(() => {
-    window.location.href = "/tareas";
+    window.location.href = "index";
   }, 2000);
 });

@@ -44,7 +44,7 @@
                     text-decoration: none !important;
                     color: white !important;
                   "
-                  href="/Public/index.html"
+                  href="index"
                   >Volver</a
                 >
               </h2>
@@ -52,19 +52,29 @@
 
             <form action="#" id="formLogin">
               <div class="inputBox form-group">
-                <input type="text" id="email" placeholder="Email" />
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Email "
+                  class="form-control"
+                />
               </div>
               <div class="inputBox form-group">
-                <input type="password" id="password" placeholder="Contrasena" />
+                <input
+                  type="password"
+                  id="password"
+                  class="form-control"
+                  placeholder="Contrasena"
+                />
               </div>
-              <div class="inputBox">
-                <input type="submit" value="Iniciar" />
+              <div class="inputBox form-group">
+                <button type="submit" class="btn btn-primary btn-block">
+                  Iniciar
+                </button>
               </div>
               <p class="forget"><a href="#">¿Olvidaste tu contraseña?</a></p>
               <p class="forget">
-                <a href="/Public/Registro Locatario/index.html"
-                  >¿No tienes una cuenta?
-                </a>
+                <a href="/registro_locatario">¿No tienes una cuenta? </a>
               </p>
             </form>
           </div>
@@ -78,7 +88,7 @@
     </footer>
 
     <!-- scripts -->
-    <script src="/Public/js/login.locatario.js"></script>
+    <script src="/js/login.locatario.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

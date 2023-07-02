@@ -3,14 +3,14 @@ const formNuevoUsuario = document.querySelector("#formNuevoUsuario");
 formNuevoUsuario.addEventListener("submit", async (e) => {
   e.preventDefault();
 
-  const username = document.querySelector("#username").value;
+  const nameUser = document.querySelector("#nameUser").value;
   const email = document.querySelector("#email").value;
-  const Telefono = document.querySelector("#telefono").value;
-  const DNI = document.querySelector("#dni").value;
-  const password = document.querySelector("#password").value;
-  const confirmPassword = document.querySelector("#confirmPassword").value;
+  const telefono = document.querySelector("#telefono").value;
+  const dni = document.querySelector("#dni").value;
+  const password = document.getElementById("password").value;
+  const conf_Password = document.querySelector("#Conf_Password").value;
 
-  if (password !== confirmPassword) {
+  if (password !== conf_Password) {
     Swal.fire({
       icon: "error",
       title: "Oops...",
@@ -19,17 +19,18 @@ formNuevoUsuario.addEventListener("submit", async (e) => {
     return;
   }
 
-  const response = await fetch("http://localhost:5500/api/registro", {
+  const response = await fetch("http://localhost:5500/api/registro_locatario", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      username,
+      nameUser,
       email,
-      Telefono,
-      DNI,
+      telefono,
+      dni,
       password,
+      conf_Password,
     }),
   });
 
@@ -46,7 +47,7 @@ formNuevoUsuario.addEventListener("submit", async (e) => {
 
   Swal.fire({
     icon: "success",
-    title: "Usuario creado",
+    title: "registro creado",
     text: respToJson.message,
   });
 
@@ -55,6 +56,6 @@ formNuevoUsuario.addEventListener("submit", async (e) => {
   formNuevoUsuario.reset();
 
   setTimeout(() => {
-    window.location.href = "/index";
+    window.location.href = "/";
   }, 2000);
 });

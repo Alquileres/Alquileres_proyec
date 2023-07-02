@@ -101,12 +101,12 @@
 
 /*NUEVO REGISTRO*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
+} */
 /* body {
   overflow: hidden;
 } */
@@ -245,7 +245,7 @@ section .container .from .inputBox input {
 section .container .from .inputBox input::placeholder {
   color: #fff;
 }
-section .container .from .inputBox input[type="submit"] {
+section .container .from .inputBox button[type="submit"] {
   background: #fff;
   width: 100%;
   padding-top: 10px !important;
@@ -261,7 +261,7 @@ section .container .from .forget {
   color: #fff;
 }
 section .container form .forget a {
-  color: #fff;
+  color: #fff !important;
   font-weight: 600;
   text-decoration: underline;
   text-decoration-color: #fff;

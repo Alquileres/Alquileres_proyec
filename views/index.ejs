@@ -5,14 +5,14 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary nav">
       <div class="container-fluid">
          <!-- <img class=" img-logo " src="img/hogar.png" > -->
-        <a style="text-decoration: none !important;"  href="index.html" class="navbar-brand logo tex-color"><h1>mi<span>Alqui</span><img src="img/hogar.png" width="30px" height="40px" alt=""></h1></a>
+        <a style="text-decoration: none !important;"  href="index.ejs" class="navbar-brand logo tex-color"><h1>mi<span>Alqui</span><img src="img/hogar.png" width="30px" height="40px" alt=""></h1></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav tex-color">
             <li class="nav-item menu-nav">
-              <a class="nav-link active enlace-nav tex-color" aria-current="page" href="/Public/Alquileres/alquilar.html"><b>Alquilar</b> </a>
+              <a class="nav-link active enlace-nav tex-color" aria-current="page" href="/alquileres"><b>Alquilar</b> </a>
             </li>
             <li class="nav-item menu-nav">
               <a class="nav-link enlace-nav tex-color" href="#"><b>Ofertas</b></a>
@@ -32,7 +32,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a  class="dropdown-item " href="/registro_locatario">Como Locador</a></li>
-                <li><a class="dropdown-item " href="./auth/registro_locatario/registro.ejs">Como Locatario</a></li>
+                <li><a class="dropdown-item " href="/registro_locatario">Como Locatario</a></li>
                 
               </ul>
             </li>
@@ -42,7 +42,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="/views/auth/inicio_seccion/como_locador/inicio.ejs">Como Locador</a></li>
-                <li><a class="dropdown-item" href="/views/auth/inicio_seccion/como_locatario/login.ejs">Como Locatario</a></li>
+                <li><a class="dropdown-item" href="/login_locatario">Como Locatario</a></li>
                 
               </ul>
             </li>
@@ -178,5 +178,5 @@
       
       
   </main>
-
+    <script src="/Public/js/index.html.js"></script>c
   <%- include('partials/footer')  %>

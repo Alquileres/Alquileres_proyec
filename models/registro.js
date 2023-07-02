@@ -1,10 +1,10 @@
 const { sequelize, DataTypes } = require("../db");
 
-const registro = new sequelize.define("registro", {
+const Usuario = sequelize.define("registro", {
   id: {
     type: DataTypes.INTEGER,
     primaryKey: true,
-    allowNull: false,
+    autoIncrement: true,
   },
   nameUser: {
     type: DataTypes.STRING,
@@ -26,12 +26,17 @@ const registro = new sequelize.define("registro", {
     type: DataTypes.STRING,
     allowNull: false,
   },
-  conf_password: {
+  conf_Password: {
     type: DataTypes.STRING,
     allowNull: false,
   },
 });
 
+// Crear tabla si no existe ({force: true} borra y crea la tabla)
+Usuario.sync({ force: false }).then(() => {
+  console.log("Tabla de Reservas creada");
+});
+
 //exportar
 
-module.exports = registro;
+module.exports = Usuario;
