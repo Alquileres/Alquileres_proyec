@@ -59,7 +59,7 @@ body {
 
 .header {
   height: 60vh !important;
-  background: url(/Public/img/header.jpg) no-repeat center;
+  background: url(./img/header.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -164,7 +164,7 @@ p {
 }
 
 .price {
-  background: url(/Public/img/costos.jpg) no-repeat center;
+  background: url(./img/costos.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
@@ -315,4 +315,100 @@ p {
   text-align: center;
   text-indent: 20px;
   width: 100%;
+}
+
+/* porque publicar con nosotros */
+
+.fvlKin {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 55px;
+}
+
+@media (max-width: 1199px) {
+  .fvlKin {
+    height: 475px;
+    overflow: hidden;
+  }
+}
+.fvlKin .int-title {
+  color: rgb(32, 32, 32);
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+@media (max-width: 1199px) {
+  .fvlKin .cards {
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.fvlKin .cards {
+  display: flex;
+  gap: 15px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  max-width: 945px;
+  width: 100%;
+}
+@media (max-width: 1199px) {
+  .fvlKin .cards .card {
+    margin-bottom: 25px;
+    margin-right: 0px;
+    width: 345px;
+  }
+}
+.fvlKin .cards > .card {
+  display: flex;
+  width: 33%;
+}
+.fvlKin .cards > .card svg {
+  min-height: 22px;
+  min-width: 22px;
+}
+.fvlKin .cards > .card .text-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.fvlKin .cards > .card .text-container .card-title {
+  font-family: "Red Hat Text";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
+.fvlKin .cards > .card .text-container .text {
+  font-family: "Red Hat Text";
+  font-size: 15px;
+  line-height: 20px;
+}
+/* boton */
+.fvlKin button {
+  width: 204px;
+  margin-top: 45px;
+}
+.iRCgEU {
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  min-width: 180px;
+  outline: 0px;
+  transition: background-color 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+  width: auto;
+  background-color: rgb(252, 4, 68);
+  color: rgb(248, 248, 249);
+  border-color: rgb(252, 4, 68);
+  min-height: 50px;
+  font-size: 15px;
 }

@@ -27,6 +27,6 @@ formLogin.addEventListener("submit", async (e) => {
 
   // Redireccionar a la vista de tareas
   setTimeout(() => {
-    window.location.href = "index";
+    window.location.href = "/";
   }, 2000);
 });

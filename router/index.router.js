@@ -9,4 +9,9 @@ router.get("/alquileres", (req, res) => {
   res.render("alquiler/alquilar");
 });
 
+//alquileres
+router.get("/publicar", (req, res) => {
+  res.render("publicar/publicar");
+});
+
 module.exports = router;
