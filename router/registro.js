@@ -7,6 +7,7 @@ const {
 } = require("../controller/contr.registro");
 
 // const { validarJWT } = require("../middlewares/validar_jw");
+// const { validarJWT } = require("../middlewares/validar_jw");
 
 // ==========================================
 // Rutas para renderizar las vistas de usuarios
@@ -19,6 +20,11 @@ router.get("/registro_locatario", async (req, res) => {
 //         Rutas para CRUD de usuarios
 // ==========================================
 
+// // Ruta para obtener los datos de todos los usuarios
+// router.get("/api/registros/", [validarJWT], obtenerRegistros);
+
+// Ruta para obtener los datos de UN solo usuario
+router.get("/api/registro/:id", obtenerRegistro);
 // Nuevo usuario
 router.post("/api/registro_locatario/", crearRegistro);
 

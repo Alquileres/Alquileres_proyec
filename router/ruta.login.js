@@ -1,6 +1,6 @@
 const express = require("express");
 const { login } = require("../controller/contr.login");
-const jwt = require("jsonwebtoken");
+// const jwt = require("jsonwebtoken");
 const router = require("express").Router();
 
 // =====================================================
@@ -17,21 +17,21 @@ router.get("/login_locatario", (req, res) =>
 
 router.post("/api/login_locatario", login);
 
-// ruta para validar el token
-router.get("/api/validar-token", (req, res) => {
-  const token = req.header("Authorization");
+// // ruta para validar el token
+// router.get("/api/validar-token", (req, res) => {
+//   const token = req.header("Authorization");
 
-  if (!token) {
-    return res.redirect("/login_locatario");
-  }
+//   if (!token) {
+//     return res.redirect("/login_locatario");
+//   }
 
-  const isValidToken = jwt.verify(token, process.env.SECRET_KEY);
+//   const isValidToken = jwt.verify(token, process.env.SECRET_KEY);
 
-  if (!isValidToken) {
-    return res.redirect("/login_locatario");
-  }
+//   if (!isValidToken) {
+//     return res.redirect("/login_locatario");
+//   }
 
-  return res.json({ ok: true });
-});
+//   return res.json({ ok: true });
+// });
 
 module.exports = router;
