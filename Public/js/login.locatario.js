@@ -4,7 +4,7 @@ document
   .addEventListener("submit", async (event) => {
     event.preventDefault(); // Evita el envío del formulario por defecto
 
-    const email = document.querySelector("#email").value;
+    const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
     try {

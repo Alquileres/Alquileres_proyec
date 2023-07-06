@@ -9,9 +9,13 @@ router.get("/alquileres", (req, res) => {
   res.render("alquiler/alquilar");
 });
 
-//alquileres
+//publicar
 router.get("/publicar", (req, res) => {
   res.render("publicar/publicar");
 });
 
+//locador REGISTRO
+router.get("/registro_locador", async (req, res) => {
+  return res.render("auth/Registro de Locatario/index");
+});
 module.exports = router;
