@@ -1,0 +1,523 @@
+body {
+  margin: 0;
+  font-family: var(--bs-body-font-family);
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.header {
+  border-radius: 4px;
+}
+
+.nav {
+  display: flex;
+  max-width: 992px; /*para que se centre  los link del menu al medio*/
+  margin: 0 auto; /*quede todo centrado 0 arri y abaj/ auto iz y derech*/
+  margin: 40px;
+}
+/* titulo-header */
+.tex-1 {
+  flex-direction: row;
+  color: rgb(21, 23, 28);
+}
+/* estilos a los navegadores */
+
+.enlace-nav {
+  text-decoration: none !important;
+  margin: 20px;
+  color: rgb(21, 23, 28);
+  font-family: "Times New Roman", Times, serif;
+  width: max-content; /*para que no me corte el contenido*/
+}
+/*el de registrarce*/
+.nav-link {
+  color: rgb(21, 23, 28) !important;
+  padding-top: 0px !important;
+}
+.nav-link:hover {
+  box-shadow: 0 0 5px rgb(252, 4, 68), 0 0 25px rgb(252, 4, 68),
+    0 0 50px rgb(252, 4, 68), 0 0 100px rgb(252, 4, 68);
+}
+/*fondo header*/
+.tex-aling {
+  margin: 0px 80px;
+  margin-bottom: 15px !important;
+}
+.parrafo {
+  margin: 15px 40%;
+  color: rgb(21, 23, 28);
+  padding-top: 15px !important;
+  white-space: nowrap;
+}
+.cta {
+  margin: 50px 170px;
+  margin-top: 100px !important;
+  text-decoration: none;
+}
+
+.img-logo {
+  text-decoration: none !important;
+  width: 3% !important;
+  height: 3%;
+}
+.logo {
+  display: flex;
+  display: grid;
+  justify-content: space-between;
+  max-width: 992px;
+  text-decoration: none;
+  padding-left: 5pxs;
+}
+.logo > h1 {
+  color: rgb(21, 23, 28);
+  padding-left: 20px;
+}
+.logo > h1 > span {
+  color: rgb(252, 4, 68) !important;
+}
+.navbar {
+  padding-left: 5px;
+}
+.nav {
+  display: grid;
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px; /*para que se centre tos los link del menu al medio*/
+  margin: 0 auto;
+}
+.colum-dos {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.listas-estilo {
+  display: flex; /*quede en forma orizontal todo los linkd del menu*/
+  margin-right: 20px; /*queden separados entre ellos desde la derecha*/
+  list-style: none; /*borrar los puntitos que tienen la listas por defectos*/
+  padding-left: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: right;
+}
+nav.bg-body-tertiary {
+  background: none !important;
+}
+/*----------CARD------------*/
+
+body {
+  background: #dce1df;
+  color: #4f585e;
+  font-family: "Source Sans Pro", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+.cards {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+a.btn {
+  background: #0096a0 !important;
+  border-radius: 4px;
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.25) !important;
+  color: #ffffff;
+  display: inline-block;
+  padding: 6px 30px 8px;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.1s 0s ease-out !important;
+}
+.no-touch a.btn:hover {
+  background: #ff6666;
+  box-shadow: 0px 8px 2px 0 rgba(0, 0, 0, 0.075);
+  transform: translateY(-2px);
+  transition: all 0.25s 0s ease-out;
+}
+.no-touch a.btn:active,
+a.btn:active {
+  background: #ff6666;
+  box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.25);
+  transform: translate3d(0, 1px, 0);
+  transition: all 0.025s 0s ease-out;
+}
+div.cards {
+  margin: 80px auto;
+  max-width: 960px;
+  text-align: center;
+}
+div.card {
+  background: #ffffff;
+  display: inline-block;
+  margin: 8px;
+  max-width: 300px;
+  perspective: 1000;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s 0s ease-in;
+  width: 300px;
+  z-index: 1;
+}
+div.card img {
+  max-width: 300px;
+}
+div.card .card__image-holder {
+  background: rgba(0, 0, 0, 0.1);
+  height: 0;
+  padding-bottom: 75%;
+}
+div.card div.card-title {
+  background: #ffffff;
+  padding: 6px 15px 10px;
+  position: relative;
+  z-index: 0;
+}
+div.card div.card-title a.toggle-info {
+  border-radius: 32px;
+  height: 32px;
+  padding: 0;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.card .card__main-features {
+  display: flex;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+* {
+  box-sizing: border-box;
+}
+.card-actions a {
+  background-color: #cf135e !important;
+  color: #fff !important;
+}
+.card-actions a:hover {
+  background-color: rgb(214, 14, 14) !important;
+}
+.whatsapp-btn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #cf135e !important;
+  color: #fff;
+  border: 3px solid white;
+  padding: 10px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+.joinchat__tooltip {
+  position: absolute;
+  display: flex;
+  flex-direction: IOW;
+  align-items: center;
+  top: 7px;
+  right: 60px;
+  width: auto;
+  height: 35px;
+  padding: 5px 10px 5px 5px;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-out 0.4s;
+  filter: drop-shadow(0 1px 4px Iqba(0, 0, 0, 0.4));
+}
+
+.joinchat__tooltip:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: -6px;
+  border: 8px solid transparent;
+  border-width: 6px ® 6px 8px;
+  border-left-color: #fff;
+}
+.bi-person-circle::before {
+  margin-right: 5px;
+  color: #999;
+}
+.joinchat_tooltip .text {
+  color: #525252;
+  font-size: 16px;
+}
+•whatsapp-btn:hover {
+  transition: all 0.5s ease-in-out !important;
+  animation: bounce 1.6s infinite !important;
+}
+/* @keyframes bounce{
+0%, 20%, 50%, 80%, 100%{
+transform: translatey(0);
+}
+40%{
+transform:translateY(-5px);
+}
+60% {
+transform:translateY(-5px);
+} */
+
+/*imagenes populares*/
+.alinear-img-popular {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) !important;
+  list-style: none;
+  gap: 20px;
+  align-content: center;
+  padding-left: 100px;
+  background-color: #ffffff;
+}
+.img-popu {
+  width: 200px !important;
+}
+/*titulo*/
+.h2-titulo-popu {
+  text-align: center !important;
+  padding-bottom: 50px !important;
+  padding-top: 50px;
+}
+.fondo-seccion {
+  background-color: rgb(252, 4, 68);
+  height: 400px;
+  padding-top: 5px !important;
+  border-radius: 1000px;
+}
+.listing-box-image-label {
+  background-color: #429a66;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 0.8em;
+  font-weight: 700;
+  padding: 4px 12px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-transform: uppercase;
+}
+.lista-fondo {
+  background-color: #ffffff;
+}
+.listing-box-image {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 3px 3px 0 0;
+  height: 160px;
+  position: relative;
+}
+.listing-box-image-links {
+  background-color: rgba(255, 255, 255, 0.952);
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transition: opacity 0.15s linear;
+}
+/*h2 titulo del enlace*/
+.listing-box-title h2 {
+  display: block;
+  font-size: 1.25em;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
+/*lista del contenido del alquiler*/
+.listing-box-content {
+  font-size: 0.95em;
+  padding: 20px;
+}
+/*titulo*/
+.listing-box-title {
+  background-color: #fff;
+}
+
+/*precio alquiler*/
+.listing-box-title h3 {
+  color: #171717 !important;
+  display: block;
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 7px 0 0 0;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.listing-box-title a {
+  text-decoration: none;
+  color: #000;
+  padding-top: 10px !important;
+}
+.listing-box-title a:hover {
+  color: rgb(252, 4, 68);
+}
+dl {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.listing-box-content dt {
+  clear: left;
+  color: #fffcfc;
+  float: left;
+  font-weight: 400;
+  line-height: 30px;
+}
+.listing-box-content dd {
+  clear: right;
+  color: #000;
+  float: right;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0;
+}
+.listing-box {
+  background-color: rgb(252, 4, 68);
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(67, 66, 68, 0.185);
+  margin: 0 0 30px 0;
+  overflow: hidden;
+  transition: box-shadow 0.15s linear;
+}
+
+nav.bg-body-tertiary {
+  background: none !important;
+}
+.bold {
+  color: rgb(246, 242, 252);
+}
+p.text-white {
+  color: #171717 !important;
+}
+.h2-titulo-popu {
+  color: #171717;
+}
+.casa_popu {
+  color: rgba(141, 140, 140, 0.8);
+}
+.casa_popu:hover {
+  color: rgb(255, 255, 255);
+}
+
+.header {
+  border-radius: 4px;
+}
+
+.nav {
+  display: flex;
+  max-width: 992px; /*para que se centre  los link del menu al medio*/
+  margin: 0 auto; /*quede todo centrado 0 arri y abaj/ auto iz y derech*/
+  margin: 40px;
+}
+/* titulo-header */
+.tex-1 {
+  flex-direction: row;
+  color: rgb(21, 23, 28);
+}
+/* estilos a los navegadores */
+
+.enlace-nav {
+  text-decoration: none !important;
+  margin: 20px;
+  color: rgb(21, 23, 28);
+  font-family: "Times New Roman", Times, serif;
+  width: max-content; /*para que no me corte el contenido*/
+}
+/*el de registrarce*/
+.nav-link {
+  color: rgb(21, 23, 28) !important;
+  padding-top: 0px !important;
+}
+.nav-link:hover {
+  box-shadow: 0 0 5px rgb(252, 4, 68), 0 0 25px rgb(252, 4, 68),
+    0 0 50px rgb(252, 4, 68), 0 0 100px rgb(252, 4, 68);
+}
+/*fondo header*/
+.tex-aling {
+  margin: 0px 80px;
+  margin-bottom: 15px !important;
+}
+.parrafo {
+  margin: 15px 40%;
+  color: rgb(21, 23, 28);
+  padding-top: 15px !important;
+  white-space: nowrap;
+}
+.cta {
+  margin: 50px 170px;
+  margin-top: 100px !important;
+  text-decoration: none;
+}
+
+.img-logo {
+  text-decoration: none !important;
+  width: 3% !important;
+  height: 3%;
+}
+.logo {
+  display: flex;
+  display: grid;
+  justify-content: space-between;
+  max-width: 992px;
+  text-decoration: none;
+  padding-left: 5pxs;
+}
+.logo > h1 {
+  color: rgb(21, 23, 28);
+  padding-left: 20px;
+}
+.logo > h1 > span {
+  color: rgb(252, 4, 68) !important;
+}
+.navbar {
+  padding-left: 5px;
+}
+.nav {
+  display: grid;
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px; /*para que se centre tos los link del menu al medio*/
+  margin: 0 auto;
+}
+.colum-dos {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.listas-estilo {
+  display: flex; /*quede en forma orizontal todo los linkd del menu*/
+  margin-right: 20px; /*queden separados entre ellos desde la derecha*/
+  list-style: none; /*borrar los puntitos que tienen la listas por defectos*/
+  padding-left: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: right;
+}
+nav.bg-body-tertiary {
+  background: none !important;
+}
