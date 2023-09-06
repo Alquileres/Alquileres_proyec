@@ -21,6 +21,7 @@ require("ejs");
 
 // Se inicializa express para poder usar sus métodos
 const app = express();
+//
 
 // Conf Middlewares
 app.use(cors());
