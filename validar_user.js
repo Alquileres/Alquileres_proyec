@@ -1,4 +1,4 @@
-<script>
+
   (() => {
     // Se comprueba si el token en el navegador es válido
     const token = localStorage.getItem("token");
@@ -25,4 +25,4 @@
         .catch((err) => console.log(err));
     }
   })();
-</script>
+
